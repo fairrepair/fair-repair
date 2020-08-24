@@ -1,0 +1,55 @@
+EVAL random-seed 4
+EVAL forest-size 30
+EVAL time-forest-construction 0.0668191909790039
+EVAL df-to-dict-time 0.21542906761169434
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.6
+EVAL alpha 2.0
+EVAL classification-time 4.706827402114868
+EVAL true-positive-before 265
+EVAL false-positive-before 14
+EVAL true-negative-before 686
+EVAL false-negative-before 35
+EVAL precision-before 0.9498207885304659
+EVAL recall-before 0.8833333333333333
+EVAL accuracy-before 0.951
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-before [199, 199, 199, 204, 194, 192, 196, 185, 172, 199, 208, 201, 178, 191, 189, 187, 204, 193, 182, 202, 221, 195, 167, 191, 201, 197, 202, 202, 174, 193]
+EVAL time-get-hcubes 1.404240369796753
+EVAL time-divide-hcubes 4.096198558807373
+EVAL time-assign-points 0.9514150619506836
+EVAL time-intersection 0.20940518379211426
+EVAL num-hcubes-split-nonzero [218, 220, 224, 221, 208, 220, 216, 205, 191, 206, 234, 222, 198, 211, 208, 209, 229, 215, 204, 227, 241, 214, 190, 212, 226, 215, 224, 226, 199, 214]
+EVAL num-hcubes-split-all [382, 398, 395, 406, 337, 356, 384, 347, 325, 248, 401, 400, 356, 333, 343, 371, 406, 357, 364, 402, 440, 390, 322, 377, 382, 372, 401, 399, 348, 381]
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.284527518172378, 0.13513513513513514]
+EVAL theoretical-min-change 2.0
+EVAL theoretical-min-change-list [0. 2.]
+EVAL theoretical-optimal-passing-nums [274.   7.]
+EVAL refinement-needed Y
+0.17071651
+0.28452752
+[(274, 0), (5, 7)]
+[963, 37]
+what [274, 7]
+EVAL data-points-changed-group [0, 4]
+EVAL data-points-changed-total 4
+EVAL final-fairness [(1.0, 0, 0), (1.5039311674825693, 0, 1), (0.6649240481357269, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 1.2333333333333334
+EVAL time_flip 0.86966872215271
+EVAL true-positive-after 264
+EVAL false-positive-after 17
+EVAL true-negative-after 683
+EVAL false-negative-after 36
+EVAL precision-after 0.9395017793594306
+EVAL recall-after 0.88
+EVAL accuracy-after 0.947
+EVAL repair-time 7.730416536331177
+EVAL init-fairness [(1.0, 0, 0), (2.105503634475597, 0, 1), (0.47494574866837647, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [218, 220, 224, 221, 208, 220, 216, 205, 191, 206, 234, 222, 198, 211, 208, 209, 229, 215, 204, 227, 241, 214, 190, 212, 226, 215, 224, 226, 199, 214]
+EVAL num-hcubes-final-all [382, 398, 395, 406, 337, 356, 384, 347, 325, 248, 401, 400, 356, 333, 343, 371, 406, 357, 364, 402, 440, 390, 322, 377, 382, 372, 401, 399, 348, 381]
+EVAL time-total 12.779431343078613

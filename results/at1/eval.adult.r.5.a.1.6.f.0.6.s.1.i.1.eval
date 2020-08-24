@@ -1,0 +1,92 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/e68347fa73ad42a78c525f21a02b1c89-pulp.mps branch printingOptions all solution /tmp/e68347fa73ad42a78c525f21a02b1c89-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 38 RHS
+At line 47 BOUNDS
+At line 52 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 1141.81 - 0.00 seconds
+Cgl0004I processed model has 6 rows, 4 columns (4 integer (0 of which binary)) and 12 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 1142 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective 1142.000000000001, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1141.81 to 1141.81
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                1142.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 5
+EVAL time-tree-construction 0.5703952312469482
+EVAL df-to-dict-time 15.154613971710205
+EVAL classification-time 141.48952293395996
+EVAL true-positive-before 10514
+EVAL false-positive-before 861
+EVAL true-negative-before 34228
+EVAL false-negative-before 840
+EVAL precision-before 0.9243076923076923
+EVAL recall-before 0.9260172626387176
+EVAL accuracy-before 0.9633744590142755
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.6
+EVAL alpha 1.6
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.5.a.1.6.f.0.6.s.1.i.1.pkl.tree
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL num-hcubes-before 5496
+EVAL time-divide-hcubes 9.095187902450562
+EVAL time-assign-points 5.703325271606445
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-split-nonzero 6481
+EVAL num-hcubes-split-all 9921
+EVAL size-of-sens-groups [15203, 31240]
+EVAL init-passing-rates [0.11096494113004013, 0.3101152368758003]
+EVAL theoretical-min-change 1142.0
+EVAL theoretical-min-change-list [1142.    0.]
+EVAL theoretical-optimal-passing-nums [2829. 9688.]
+passNums-before: [1687, 9688]
+proportions: [15203, 31240]
+passNums-after [3511, 9688]
+EVAL time-flip-smt 5.943946838378906
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 5.943946838378906
+EVAL time-repair-all 24.412692546844482
+EVAL init-fairness [(1.0, 0, 0), (0.35781841049777596, 0, 1), (2.7947136610686374, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (0.7446949847407773, 0, 1), (1.3428316565715726, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 6481
+EVAL num-hcubes-after-all 9921
+EVAL data-points-changed-group [1828, 0]
+EVAL data-points-changed-total 1828
+EVAL time-total 183.3075349330902
+EVAL true-positive-after 10612
+EVAL false-positive-after 2587
+EVAL true-negative-after 32502
+EVAL false-negative-after 742
+EVAL precision-after 0.8040003030532616
+EVAL recall-after 0.9346485819975339
+EVAL accuracy-after 0.9283207372478092

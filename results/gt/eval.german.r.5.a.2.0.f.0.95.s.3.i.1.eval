@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.011994123458862305
+EVAL df-to-dict-time 0.21938848495483398
+EVAL classification-time 2.146799087524414
+EVAL true-positive-before 276
+EVAL false-positive-before 35
+EVAL true-negative-before 665
+EVAL false-negative-before 24
+EVAL precision-before 0.887459807073955
+EVAL recall-before 0.92
+EVAL accuracy-before 0.941
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.95
+EVAL alpha 2.0
+EVAL input-tree ././rq5-german-tree/eval.german.r.5.a.2.0.f.0.95.s.3.i.1.pkl.tree
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL num-hcubes-before 173
+EVAL time-divide-hcubes 0.1077117919921875
+EVAL time-assign-points 0.04587697982788086
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-split-nonzero 188
+EVAL num-hcubes-split-all 346
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.3177570093457944, 0.13513513513513514]
+(95, 100)
+[306.  12.]
+[0. 7.]
+EVAL theoretical-min-change 7.0
+EVAL theoretical-min-change-list [0. 7.]
+passNums-before: [306, 5]
+proportions: [963, 37]
+passNums-after [306, 12]
+EVAL time-flip-smt 0.21540451049804688
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.21540451049804688
+EVAL time-repair-all 0.4827091693878174
+EVAL init-fairness [(1.0, 0, 0), (2.3514018691588783, 0, 1), (0.4252782193958665, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (0.9797507788161994, 0, 1), (1.0206677265500794, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 188
+EVAL num-hcubes-after-all 346
+EVAL data-points-changed-group [0, 7]
+EVAL data-points-changed-total 7
+EVAL time-total 2.9436373710632324
+EVAL true-positive-after 276
+EVAL false-positive-after 42
+EVAL true-negative-after 658
+EVAL false-negative-after 24
+EVAL precision-after 0.8679245283018868
+EVAL recall-after 0.92
+EVAL accuracy-after 0.934

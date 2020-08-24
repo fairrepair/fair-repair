@@ -1,0 +1,58 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/jiang/.local/lib/python3.5/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/5f12b569e88f425b89358aa240cb033a-pulp.mps branch printingOptions all solution /tmp/5f12b569e88f425b89358aa240cb033a-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 30 RHS
+At line 39 BOUNDS
+At line 44 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Presolve 6 (-2) rows, 4 (0) columns and 12 (-2) elements
+0  Obj 0 Primal inf 0.40554995 (2)
+3  Obj 0.04442618
+Optimal - objective value 0.04442618
+After Postsolve, objective 0.04442618, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.04442617984 - 3 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 2
+EVAL forest-size 60
+EVAL time-forest-construction 2.5742342472076416
+EVAL df-to-dict-time 15.913902759552002
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 323.15670466423035
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-before [6507, 6513, 6652, 6548, 6612, 6627, 6838, 6573, 6697, 6705, 6561, 6155, 6786, 6415, 6550, 6567, 6349, 6738, 6465, 6262, 6709, 6500, 6323, 6529, 6356, 6707, 6717, 6538, 6583, 6483, 6708, 6604, 6680, 6660, 6585, 6627, 6519, 6381, 6378, 6463, 6628, 6458, 6606, 6554, 6582, 6725, 6606, 6722, 6661, 6582, 6300, 6442, 6597, 6496, 6386, 6564, 6520, 6417, 6154, 6758]
+EVAL time-get-hcubes 327.0578234195709
+EVAL time-divide-hcubes 770.0145726203918
+EVAL time-assign-points 305.32301235198975
+EVAL time-intersection 278.46705508232117
+EVAL num-hcubes-split-nonzero [6507, 6857, 6652, 7166, 7026, 7164, 7443, 6968, 7260, 7248, 6561, 6275, 6953, 6859, 6671, 7000, 6887, 7221, 7038, 6841, 7082, 6879, 6323, 7047, 6628, 6707, 7084, 6836, 6647, 6931, 7192, 7052, 6985, 7280, 6958, 6826, 7018, 6804, 6806, 6867, 7017, 6852, 6961, 6778, 6918, 7176, 7178, 6885, 6929, 7137, 6631, 6837, 7032, 6496, 6751, 6852, 6990, 6943, 6377, 7047]
+EVAL num-hcubes-split-all [6507, 10448, 6652, 9810, 10939, 11504, 11071, 11143, 11004, 10642, 6561, 6940, 8602, 9735, 6897, 8757, 11712, 10024, 9962, 9382, 9291, 11592, 6323, 10779, 11361, 6707, 8560, 10365, 6680, 11620, 10127, 10271, 8601, 10354, 11958, 7313, 10109, 9232, 9387, 8267, 12157, 11072, 11696, 8408, 10643, 11482, 9972, 11359, 9784, 10111, 10881, 11623, 11142, 6496, 8029, 10409, 11909, 10215, 10860, 12035]
+EVAL size-of-sens-groups [0.32734750123807677, 0.6726524987619232]
+EVAL init-passing-rates [0.1048477274222193, 0.30070422535211266]
+EVAL theoretical-min-change 2064
+EVAL theoretical-min-change-list [0.13571565 0.        ]
+EVAL refinement-needed Y
+[0.2670525554166941, 0.30070422535211266]
+EVAL data-points-changed-group [2476, 0]
+EVAL data-points-changed-total 2476
+EVAL final-fairness [(1.0, 0, 0), (0.8880904653201536, 0, 1), (1.1260114133074308, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 1159.6166666666666
+EVAL time_flip 32.570014238357544
+EVAL repair-time 1739.1831457614899
+EVAL init-fairness [(1.0, 0, 0), (0.34867394131042484, 0, 1), (2.868008994998851, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [6507, 6857, 6652, 7166, 7026, 7164, 7443, 6968, 7260, 7248, 6561, 6275, 6953, 6859, 6671, 7000, 6887, 7221, 7038, 6841, 7082, 6879, 6323, 7047, 6628, 6707, 7084, 6836, 6647, 6931, 7192, 7052, 6985, 7280, 6958, 6826, 7018, 6804, 6806, 6867, 7017, 6852, 6961, 6778, 6918, 7176, 7178, 6885, 6929, 7137, 6631, 6837, 7032, 6496, 6751, 6852, 6990, 6943, 6377, 7047]
+EVAL num-hcubes-final-all [6507, 10448, 6652, 9810, 10939, 11504, 11071, 11143, 11004, 10642, 6561, 6940, 8602, 9735, 6897, 8757, 11712, 10024, 9962, 9382, 9291, 11592, 6323, 10779, 11361, 6707, 8560, 10365, 6680, 11620, 10127, 10271, 8601, 10354, 11958, 7313, 10109, 9232, 9387, 8267, 12157, 11072, 11696, 8408, 10643, 11482, 9972, 11359, 9784, 10111, 10881, 11623, 11142, 6496, 8029, 10409, 11909, 10215, 10860, 12035]
+EVAL time-total 2081.785054206848

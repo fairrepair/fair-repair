@@ -1,0 +1,20 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.477034330368042
+Traceback (most recent call last):
+  File "./adult_patch.py", line 85, in <module>
+    patch.patch(evalu, cols, refineHeuristics, attr_map,classes)
+  File "/home/fair/fairml/patch.py", line 50, in patch
+    return patchTree(evalu, cols, refineHeuristics, attr_map,classes)
+  File "/home/fair/fairml/patch.py", line 75, in patchTree
+    dataList.append(df.iloc[i].to_dict())
+  File "/home/fair/.local/lib/python3.6/site-packages/pandas/core/series.py", line 1558, in to_dict
+    return into_c(self.items())
+  File "/home/fair/.local/lib/python3.6/site-packages/pandas/core/series.py", line 1505, in items
+    return zip(iter(self.index), iter(self))
+  File "/home/fair/.local/lib/python3.6/site-packages/pandas/core/base.py", line 1039, in __iter__
+    if self.dtype.kind in ["m", "M"]:
+  File "/home/fair/.local/lib/python3.6/site-packages/pandas/core/series.py", line 419, in dtype
+    return self._data.dtype
+  File "/home/fair/.local/lib/python3.6/site-packages/pandas/core/internals/managers.py", line 1548, in dtype
+    @property
+KeyboardInterrupt

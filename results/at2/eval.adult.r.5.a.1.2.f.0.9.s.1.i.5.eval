@@ -1,0 +1,28 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.19898128509521484
+EVAL data-file data/adult.data
+EVAL num-input-points 23167
+EVAL fairness-thresh 0.9
+EVAL alpha 1.2
+EVAL input-tree ./exp4-adult/eval.adult.r.5.a.1.2.f.0.9.s.1.i.5.pkl.tree
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL num-hcubes-before 2741
+EVAL time-divide-hcubes 4.729311466217041
+EVAL time-assign-points 63.749961376190186
+EVAL init-num-hcubesets 2
+EVAL sens-groups ['sex_Male', 'sex_Female']
+EVAL size-of-sens-groups [0.6763499805758321, 0.3242974921224172]
+EVAL init-passing-rates [0.31629331801646104, 0.11752961533342152]
+EVAL theoretical-min-change 1255
+EVAL num-hcubes-after 3214
+EVAL data-points-changed-group [0, 1507]
+EVAL data-points-changed-total 1507
+EVAL post-refinement-steps-needed N
+EVAL final-fairness [(1.0, 0, 0), (0.9942726770952746, 0, 1), (1.0057603140835143, 1, 0), (1.0, 1, 1)]
+EVAL time-flip-smt 7.669334888458252
+EVAL time-repair-all 7.6693549156188965
+EVAL refinement-needed N
+EVAL time-smt-calls 7.669360876083374
+EVAL time-total 78.49037051200867
+EVAL init-fairness [(1.0, 0, 0), (2.6911797262261414, 0, 1), (0.3715842499312769, 1, 0), (1.0, 1, 1)]

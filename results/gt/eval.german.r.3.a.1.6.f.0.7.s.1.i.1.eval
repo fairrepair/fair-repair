@@ -1,0 +1,55 @@
+EVAL random-seed 3
+EVAL time-tree-construction 0.018987417221069336
+EVAL df-to-dict-time 0.3390834331512451
+EVAL classification-time 2.3442115783691406
+EVAL true-positive-before 266
+EVAL false-positive-before 26
+EVAL true-negative-before 674
+EVAL false-negative-before 34
+EVAL precision-before 0.910958904109589
+EVAL recall-before 0.8866666666666667
+EVAL accuracy-before 0.94
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.7
+EVAL alpha 1.6
+EVAL input-tree ././rq5-german-tree/eval.german.r.3.a.1.6.f.0.7.s.1.i.1.pkl.tree
+EVAL sensitive-attrs ['Sex', 'ForeignWorker']
+EVAL sensitive-[Attr]-values [['Sex_A91', 'Sex_A92', 'Sex_A93', 'Sex_A94'], ['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL num-hcubes-before 150
+EVAL time-divide-hcubes 0.5824477672576904
+EVAL time-assign-points 0.04945254325866699
+EVAL init-num-hcubesets 8
+EVAL sens-groups [['Sex_A91', 'ForeignWorker_A201'], ['Sex_A91', 'ForeignWorker_A202'], ['Sex_A92', 'ForeignWorker_A201'], ['Sex_A92', 'ForeignWorker_A202'], ['Sex_A93', 'ForeignWorker_A201'], ['Sex_A93', 'ForeignWorker_A202'], ['Sex_A94', 'ForeignWorker_A201'], ['Sex_A94', 'ForeignWorker_A202']]
+EVAL num-hcubes-split-nonzero 313
+EVAL num-hcubes-split-all 1128
+EVAL size-of-sens-groups [49, 1, 303, 7, 525, 23, 86, 6]
+EVAL init-passing-rates [0.32653061224489793, 1.0, 0.3333333333333333, 0.42857142857142855, 0.26666666666666666, 0.0, 0.3372093023255814, 0.3333333333333333]
+(70, 100)
+[ 16.   1. 101.   3. 140.   6.  29.   2.]
+[0. 0. 0. 0. 0. 6. 0. 0.]
+EVAL theoretical-min-change 6.0
+EVAL theoretical-min-change-list [0. 0. 0. 0. 0. 6. 0. 0.]
+passNums-before: [16, 1, 101, 3, 140, 0, 29, 2]
+proportions: [49, 1, 303, 7, 525, 23, 86, 6]
+passNums-after [16, 1, 101, 3, 140, 6, 29, 2]
+EVAL time-flip-smt 0.44384026527404785
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.44384026527404785
+EVAL time-repair-all 1.1784539222717285
+EVAL init-fairness [(1.0, 0, 0), (0.9795918367346939, 0, 2), (1.2244897959183674, 0, 4), 'N/A', (0.9683321604503871, 0, 6), (1.0208333333333333, 2, 0), (1.0, 2, 2), (1.25, 2, 4), 'N/A', (0.9885057471264368, 2, 6), (0.8166666666666668, 4, 0), (0.8, 4, 2), (1.0, 4, 4), 'N/A', (0.7908045977011494, 4, 6), (0.0, 5, 0), (0.0, 5, 2), (0.0, 5, 4), 'N/A', (0.0, 5, 6), (1.0327034883720931, 6, 0), (1.0116279069767442, 6, 2), (1.2645348837209303, 6, 4), 'N/A', (1.0, 6, 6)]
+EVAL final-fairness [(1.0, 0, 0), (0.9795918367346939, 0, 2), (1.2244897959183674, 0, 4), (1.251700680272109, 0, 5), (0.9683321604503871, 0, 6), (1.0208333333333333, 2, 0), (1.0, 2, 2), (1.25, 2, 4), (1.2777777777777777, 2, 5), (0.9885057471264368, 2, 6), (0.8166666666666667, 4, 0), (0.8, 4, 2), (1.0, 4, 4), (1.0222222222222221, 4, 5), (0.7908045977011494, 4, 6), (0.7989130434782609, 5, 0), (0.782608695652174, 5, 2), (0.9782608695652174, 5, 4), (1.0, 5, 5), (0.7736131934032984, 5, 6), (1.032703488372093, 6, 0), (1.0116279069767442, 6, 2), (1.2645348837209303, 6, 4), (1.2926356589147288, 6, 5), (1.0, 6, 6)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 313
+EVAL num-hcubes-after-all 1128
+EVAL data-points-changed-group [0, 0, 0, 0, 0, 6, 0, 0]
+EVAL data-points-changed-total 6
+EVAL time-total 3.9674737453460693
+EVAL true-positive-after 266
+EVAL false-positive-after 32
+EVAL true-negative-after 668
+EVAL false-negative-after 34
+EVAL precision-after 0.8926174496644296
+EVAL recall-after 0.8866666666666667
+EVAL accuracy-after 0.934

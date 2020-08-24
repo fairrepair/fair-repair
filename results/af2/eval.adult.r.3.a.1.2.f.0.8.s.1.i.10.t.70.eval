@@ -1,0 +1,58 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/jiang/.local/lib/python3.5/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/cbbe9cd6f0234e9b927a28dbc608143c-pulp.mps branch printingOptions all solution /tmp/cbbe9cd6f0234e9b927a28dbc608143c-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 30 RHS
+At line 39 BOUNDS
+At line 44 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Presolve 6 (-2) rows, 4 (0) columns and 12 (-2) elements
+0  Obj 0 Primal inf 0.40728513 (2)
+3  Obj 0.044027926
+Optimal - objective value 0.044027926
+After Postsolve, objective 0.044027926, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.04402792591 - 3 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 3
+EVAL forest-size 70
+EVAL time-forest-construction 3.093149185180664
+EVAL df-to-dict-time 16.486077070236206
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 380.32825350761414
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-before [6950, 6478, 6617, 6380, 6668, 6657, 6596, 6398, 6407, 6498, 6386, 6337, 6616, 6416, 6371, 6736, 6623, 6724, 6526, 6691, 6560, 6585, 6368, 6564, 6481, 6489, 6355, 6641, 6608, 6537, 6604, 6790, 6432, 6606, 6418, 6758, 6639, 6402, 6640, 6705, 6630, 6775, 6698, 6499, 6579, 6415, 6629, 6540, 6577, 6681, 6759, 6445, 6512, 6732, 6428, 6550, 6479, 6656, 6760, 6331, 6753, 6502, 6592, 6431, 6722, 6491, 6623, 6625, 6642, 6461]
+EVAL time-get-hcubes 374.58539485931396
+EVAL time-divide-hcubes 892.3522009849548
+EVAL time-assign-points 383.7577955722809
+EVAL time-intersection 291.7828299999237
+EVAL num-hcubes-split-nonzero [6950, 6908, 7016, 7009, 7198, 7179, 7005, 6788, 6617, 6498, 6616, 6823, 6616, 6463, 6846, 7359, 7046, 7277, 6526, 7304, 6989, 6900, 6738, 6655, 6545, 6753, 6696, 6841, 7074, 6991, 7073, 7168, 6612, 6695, 6834, 7386, 6909, 6852, 7021, 6819, 6992, 7120, 7215, 6878, 7091, 6565, 7261, 6953, 7030, 6936, 7075, 6819, 6512, 7074, 6527, 6970, 7030, 7119, 7171, 6749, 7055, 6915, 6762, 6591, 7078, 6911, 7042, 7215, 6711, 6537]
+EVAL num-hcubes-split-all [6950, 11762, 9710, 10461, 10095, 10377, 11362, 8665, 10104, 6498, 11402, 8879, 6616, 6489, 8811, 10199, 8829, 10665, 6526, 9977, 11759, 11694, 9363, 6951, 10917, 6930, 9369, 9986, 10489, 9354, 12130, 12134, 11478, 8727, 11456, 10750, 11780, 9415, 9941, 11452, 8995, 8938, 9767, 7543, 11030, 10675, 9845, 11475, 10117, 8838, 11901, 8763, 6512, 11981, 6658, 11755, 9597, 8904, 9032, 9665, 8274, 9272, 8058, 7136, 12137, 11638, 10089, 10464, 7387, 7991]
+EVAL size-of-sens-groups [0.32734750123807677, 0.6726524987619232]
+EVAL init-passing-rates [0.10629481023482207, 0.3009923175416133]
+EVAL theoretical-min-change 2045
+EVAL theoretical-min-change-list [0.13449904 0.        ]
+EVAL refinement-needed Y
+[0.26757876734854963, 0.3009923175416133]
+EVAL data-points-changed-group [2454, 0]
+EVAL data-points-changed-total 2454
+EVAL final-fairness [(1.0, 0, 0), (0.8889886942431873, 0, 1), (1.1248736980297804, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 1155.0857142857142
+EVAL time_flip 31.44076418876648
+EVAL repair-time 2004.3768033981323
+EVAL init-fairness [(1.0, 0, 0), (0.35314791787045, 0, 1), (2.831674630931403, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [6950, 6908, 7016, 7009, 7198, 7179, 7005, 6788, 6617, 6498, 6616, 6823, 6616, 6463, 6846, 7359, 7046, 7277, 6526, 7304, 6989, 6900, 6738, 6655, 6545, 6753, 6696, 6841, 7074, 6991, 7073, 7168, 6612, 6695, 6834, 7386, 6909, 6852, 7021, 6819, 6992, 7120, 7215, 6878, 7091, 6565, 7261, 6953, 7030, 6936, 7075, 6819, 6512, 7074, 6527, 6970, 7030, 7119, 7171, 6749, 7055, 6915, 6762, 6591, 7078, 6911, 7042, 7215, 6711, 6537]
+EVAL num-hcubes-final-all [6950, 11762, 9710, 10461, 10095, 10377, 11362, 8665, 10104, 6498, 11402, 8879, 6616, 6489, 8811, 10199, 8829, 10665, 6526, 9977, 11759, 11694, 9363, 6951, 10917, 6930, 9369, 9986, 10489, 9354, 12130, 12134, 11478, 8727, 11456, 10750, 11780, 9415, 9941, 11452, 8995, 8938, 9767, 7543, 11030, 10675, 9845, 11475, 10117, 8838, 11901, 8763, 6512, 11981, 6658, 11755, 9597, 8904, 9032, 9665, 8274, 9272, 8058, 7136, 12137, 11638, 10089, 10464, 7387, 7991]
+EVAL time-total 2405.3123257160187

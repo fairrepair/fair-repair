@@ -1,0 +1,100 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/7b253967d61f4710be13bf5c8ffd5610-pulp.mps branch printingOptions all solution /tmp/7b253967d61f4710be13bf5c8ffd5610-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 40 COLUMNS
+At line 131 RHS
+At line 167 BOUNDS
+At line 178 ENDATA
+Problem MODEL has 35 rows, 10 columns and 65 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 455.781 - 0.00 seconds
+Cgl0004I processed model has 30 rows, 10 columns (10 integer (0 of which binary)) and 60 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 457 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0006I The LP relaxation is infeasible or too expensive
+Cbc0013I At root node, 0 cuts changed objective from 455.78094 to 459.74497 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 5 row cuts average 3.0 elements, 3 column cuts (3 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0001I Search completed - best objective 457.0000000000001, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 455.781 to 459.745
+Probing was tried 1 times and created 8 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                457.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 1
+EVAL time-tree-construction 0.5335617065429688
+EVAL df-to-dict-time 15.784988164901733
+EVAL classification-time 143.46133303642273
+EVAL true-positive-before 10452
+EVAL false-positive-before 892
+EVAL true-negative-before 34197
+EVAL false-negative-before 902
+EVAL precision-before 0.9213681241184767
+EVAL recall-before 0.9205566320239563
+EVAL accuracy-before 0.9613720043924812
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.4
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.1.a.1.4.f.0.8.s.2.i.1.pkl.tree
+EVAL sensitive-attrs ['race']
+EVAL sensitive-[Attr]-values [['race_AmerIndianEskimo', 'race_AsianPacIslander', 'race_Black', 'race_Other', 'race_White']]
+EVAL num-hcubes-before 5410
+EVAL time-divide-hcubes 15.626444578170776
+EVAL time-assign-points 5.67781400680542
+EVAL init-num-hcubesets 5
+EVAL sens-groups [['race_AmerIndianEskimo'], ['race_AsianPacIslander'], ['race_Black'], ['race_Other'], ['race_White']]
+EVAL num-hcubes-split-nonzero 6866
+EVAL num-hcubes-split-all 22212
+EVAL size-of-sens-groups [445, 1375, 4378, 366, 39879]
+EVAL init-passing-rates [0.12359550561797752, 0.27490909090909094, 0.12288716308816812, 0.13114754098360656, 0.2589081972968229]
+EVAL theoretical-min-change 457.0
+EVAL theoretical-min-change-list [ 38.  22. 369.  28.   0.]
+EVAL theoretical-optimal-passing-nums [   93.   356.   907.    76. 10325.]
+passNums-before: [55, 378, 538, 48, 10325]
+proportions: [445, 1375, 4378, 366, 39879]
+passNums-after [109, 409, 1055, 88, 10325]
+EVAL time-flip-smt 9.770222902297974
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 9.770222902297974
+EVAL time-repair-all 34.95896792411804
+EVAL init-fairness [(1.0, 0, 0), (0.4495868259913203, 0, 1), (1.0057641702518691, 0, 2), (0.9424157303370786, 0, 3), (0.4773719291563511, 0, 4), (2.2242644628099177, 1, 0), (1.0, 1, 1), (2.2370855018587363, 1, 2), (2.0961818181818184, 1, 3), (1.0618014175654853, 1, 4), (0.9942688649860876, 2, 0), (0.4470101831910877, 2, 1), (1.0, 2, 2), (0.9370146185472819, 2, 3), (0.47463604617850425, 2, 4), (1.061102831594635, 3, 0), (0.47705785410703444, 3, 1), (1.067219208970687, 3, 2), (1.0, 3, 3), (0.5065407057515977, 3, 4), (2.094802687219749, 4, 0), (0.9417956912252156, 4, 1), (2.1068774865529565, 4, 2), (1.9741750043882746, 4, 3), (1.0, 4, 4)]
+EVAL final-fairness [(1.0, 0, 0), (0.8234663882860361, 0, 1), (1.0164588103732892, 0, 2), (1.0187436159346273, 0, 3), (0.9460643686916778, 0, 4), (1.2143786488740618, 1, 0), (1.0, 1, 1), (1.2343658767772512, 1, 2), (1.2371404958677685, 1, 3), (1.1488803697996919, 1, 4), (0.9838076956928093, 2, 0), (0.8101325699401654, 2, 1), (1.0, 2, 2), (1.0022478092944058, 2, 3), (0.9307454065396319, 2, 4), (0.9816012432947311, 3, 0), (0.8083156305529948, 3, 1), (0.9977572320203041, 3, 2), (1.0, 3, 3), (0.9286579605445957, 3, 4), (1.0570105302484971, 4, 0), (0.8704126437240378, 4, 1), (1.0744076661284272, 4, 2), (1.0768227296663315, 4, 3), (1.0, 4, 4)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 6866
+EVAL num-hcubes-after-all 22212
+EVAL data-points-changed-group [54, 31, 517, 40, 0]
+EVAL data-points-changed-total 642
+EVAL time-total 196.297128200531
+EVAL true-positive-after 10506
+EVAL false-positive-after 1480
+EVAL true-negative-after 33609
+EVAL false-negative-after 848
+EVAL precision-after 0.8765226097113299
+EVAL recall-after 0.9253126651400387
+EVAL accuracy-after 0.9498740391447581

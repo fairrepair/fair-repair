@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.012928485870361328
+EVAL df-to-dict-time 0.2553539276123047
+EVAL classification-time 2.398557186126709
+EVAL true-positive-before 276
+EVAL false-positive-before 35
+EVAL true-negative-before 665
+EVAL false-negative-before 24
+EVAL precision-before 0.887459807073955
+EVAL recall-before 0.92
+EVAL accuracy-before 0.941
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.9
+EVAL alpha 1.8
+EVAL input-tree ././rq5-german-tree/eval.german.r.5.a.1.8.f.0.9.s.3.i.1.pkl.tree
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL num-hcubes-before 173
+EVAL time-divide-hcubes 0.12566232681274414
+EVAL time-assign-points 0.03394651412963867
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-split-nonzero 188
+EVAL num-hcubes-split-all 346
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.3177570093457944, 0.13513513513513514]
+(90, 100)
+[306.  11.]
+[0. 6.]
+EVAL theoretical-min-change 6.0
+EVAL theoretical-min-change-list [0. 6.]
+passNums-before: [306, 5]
+proportions: [963, 37]
+passNums-after [306, 11]
+EVAL time-flip-smt 0.19946599006652832
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.19946599006652832
+EVAL time-repair-all 0.46575284004211426
+EVAL init-fairness [(1.0, 0, 0), (2.3514018691588783, 0, 1), (0.4252782193958665, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (1.0688190314358539, 0, 1), (0.9356120826709062, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 188
+EVAL num-hcubes-after-all 346
+EVAL data-points-changed-group [0, 6]
+EVAL data-points-changed-total 6
+EVAL time-total 3.193429470062256
+EVAL true-positive-after 276
+EVAL false-positive-after 41
+EVAL true-negative-after 659
+EVAL false-negative-after 24
+EVAL precision-after 0.8706624605678234
+EVAL recall-after 0.92
+EVAL accuracy-after 0.935

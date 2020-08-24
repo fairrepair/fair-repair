@@ -1,0 +1,21 @@
+1, 2.
+existing_checking_account: A11, A12, A13, A14.
+duration: continuous.
+credit_history: A30, A31, A32, A33, A34.
+purpose: A40, A41, A42, A43, A44, A45, A46, A47, A48, A49, A410.
+credit_amount: continuous.
+savings_account: A61, A62, A63, A64, A65.
+empolyment: A71, A72, A73, A74, A75.
+installment_rate: continuous.
+personal_status: A91, A92, A93, A94, A95.
+debtors: A101, A102, A103.
+residence: continuous.
+property: A121, A122, A123, A124.
+age: continuous.
+other_plans: A141, A142, A143.
+housing: A151, A152, A153.
+number_of_credits: continuous.
+job: A171, A172, A173, A174.
+numer_of_people: continuous.
+telephone: A191, A192.
+foreign: A201, A202.

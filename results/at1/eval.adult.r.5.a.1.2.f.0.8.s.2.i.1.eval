@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.9524514675140381
+EVAL df-to-dict-time 14.141996622085571
+EVAL classification-time 133.9210069179535
+EVAL true-positive-before 10514
+EVAL false-positive-before 861
+EVAL true-negative-before 34228
+EVAL false-negative-before 840
+EVAL precision-before 0.9243076923076923
+EVAL recall-before 0.9260172626387176
+EVAL accuracy-before 0.9633744590142755
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.5.a.1.2.f.0.8.s.2.i.1.pkl.tree
+EVAL sensitive-attrs ['race']
+EVAL sensitive-[Attr]-values [['race_AmerIndianEskimo', 'race_AsianPacIslander', 'race_Black', 'race_Other', 'race_White']]
+EVAL num-hcubes-before 5496
+EVAL time-divide-hcubes 19.24828290939331
+EVAL time-assign-points 7.247778415679932
+EVAL init-num-hcubesets 5
+EVAL sens-groups [['race_AmerIndianEskimo'], ['race_AsianPacIslander'], ['race_Black'], ['race_Other'], ['race_White']]
+EVAL num-hcubes-split-nonzero 7154
+EVAL num-hcubes-split-all 24320
+EVAL size-of-sens-groups [445, 1375, 4378, 366, 39879]
+EVAL init-passing-rates [0.1258426966292135, 0.28145454545454546, 0.12654179990863407, 0.12021857923497267, 0.2591338799869606]
+(80, 100)
+[   93.   356.   908.    76. 10334.]
+[ 37.  31. 354.  32.   0.]
+EVAL theoretical-min-change 454.0
+EVAL theoretical-min-change-list [ 37.  31. 354.  32.   0.]
+passNums-before: [56, 387, 554, 44, 10334]
+proportions: [445, 1375, 4378, 366, 39879]
+passNums-after [93, 349, 913, 83, 10334]
+EVAL time-flip-smt 43.30589938163757
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 43.30589938163757
+EVAL time-repair-all 74.34561657905579
+EVAL init-fairness [(1.0, 0, 0), (0.4471155241994019, 0, 1), (0.9944753174055897, 0, 2), (1.0467824310520941, 0, 3), (0.48562811098087905, 0, 4), (2.2365584415584414, 1, 0), (1.0, 1, 1), (2.2242021660649822, 1, 2), (2.341190082644628, 1, 3), (1.0861356510723648, 1, 4), (1.0055553742739671, 2, 0), (0.4495994182800306, 2, 1), (1.0, 2, 2), (1.0525976992400017, 2, 3), (0.4883259568953375, 2, 4), (0.9553083528493364, 3, 0), (0.42713319495629826, 3, 1), (0.9500305774200549, 3, 2), (1.0, 3, 3), (0.4639245907984783, 3, 4), (2.0591888677535257, 4, 0), (0.9206953100311907, 4, 1), (2.0478125028572447, 4, 2), (2.155522728982445, 4, 3), (1.0, 4, 4)]
+EVAL final-fairness [(1.0, 0, 0), (0.8233798010366697, 0, 1), (1.0021388926492487, 0, 2), (0.9215649113307162, 0, 3), (0.8064895414503885, 0, 4), (1.2145063538611927, 1, 0), (1.0, 1, 1), (1.217104052573932, 1, 2), (1.1192464403066813, 1, 3), (0.9794866724140965, 1, 4), (0.9978656724482629, 2, 0), (0.8216224388417733, 2, 1), (1.0, 2, 2), (0.9195979899497487, 2, 3), (0.804768228601883, 2, 4), (1.0851107585639579, 3, 0), (0.8934582804891414, 3, 1), (1.0874316939890711, 3, 2), (1.0, 3, 3), (0.8751304780971296, 3, 4), (1.2399416838085746, 4, 0), (1.0209429369113776, 4, 1), (1.2425937859615699, 4, 2), (1.142686747894308, 4, 3), (1.0, 4, 4)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 7154
+EVAL num-hcubes-after-all 24320
+EVAL data-points-changed-group [37, 38, 425, 39, 0]
+EVAL data-points-changed-total 539
+EVAL time-total 228.2325987815857
+EVAL true-positive-after 10465
+EVAL false-positive-after 1307
+EVAL true-negative-after 33782
+EVAL false-negative-after 889
+EVAL precision-after 0.8889738362215427
+EVAL recall-after 0.9217016029593095
+EVAL accuracy-after 0.9527162328014986

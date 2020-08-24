@@ -1,0 +1,100 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/755ab175d00a4ff0b02c11d3693dd254-pulp.mps branch printingOptions all solution /tmp/755ab175d00a4ff0b02c11d3693dd254-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 38 RHS
+At line 47 BOUNDS
+At line 52 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 670.341 - 0.00 seconds
+Cgl0004I processed model has 6 rows, 4 columns (4 integer (0 of which binary)) and 12 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 672 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0012I Integer solution of 671 found by DiveCoefficient after 2 iterations and 0 nodes (0.00 seconds)
+Cbc0013I At root node, 0 cuts changed objective from 670.34097 to 671 in 2 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0001I Search completed - best objective 671.0000000000002, took 2 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 670.341 to 671
+Probing was tried 2 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 2 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                671.00000000
+Enumerated nodes:               0
+Total iterations:               2
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 5
+EVAL time-tree-construction 0.6086194515228271
+EVAL df-to-dict-time 16.059521198272705
+EVAL classification-time 149.68942284584045
+EVAL true-positive-before 10514
+EVAL false-positive-before 861
+EVAL true-negative-before 34228
+EVAL false-negative-before 840
+EVAL precision-before 0.9243076923076923
+EVAL recall-before 0.9260172626387176
+EVAL accuracy-before 0.9633744590142755
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.5
+EVAL alpha 2.0
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.5.a.2.0.f.0.5.s.1.i.1.pkl.tree
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL num-hcubes-before 5496
+EVAL time-divide-hcubes 9.53471302986145
+EVAL time-assign-points 5.277495384216309
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-split-nonzero 6481
+EVAL num-hcubes-split-all 9921
+EVAL size-of-sens-groups [15203, 31240]
+EVAL init-passing-rates [0.11096494113004013, 0.3101152368758003]
+EVAL theoretical-min-change 671.0
+EVAL theoretical-min-change-list [671.   0.]
+EVAL theoretical-optimal-passing-nums [2358. 9688.]
+passNums-before: [1687, 9688]
+proportions: [15203, 31240]
+passNums-after [3027, 9688]
+EVAL time-flip-smt 6.157986402511597
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 6.157986402511597
+EVAL time-repair-all 24.838336944580078
+EVAL init-fairness [(1.0, 0, 0), (0.35781841049777596, 0, 1), (2.7947136610686374, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (0.6420369463999809, 0, 1), (1.5575427638661352, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 6481
+EVAL num-hcubes-after-all 9921
+EVAL data-points-changed-group [1342, 0]
+EVAL data-points-changed-total 1342
+EVAL time-total 192.9887354373932
+EVAL true-positive-after 10596
+EVAL false-positive-after 2119
+EVAL true-negative-after 32970
+EVAL false-negative-after 758
+EVAL precision-after 0.833346441211168
+EVAL recall-after 0.9332393870001762
+EVAL accuracy-after 0.9380530973451328

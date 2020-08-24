@@ -1,0 +1,128 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/6358672ff0d74a72a5001a29233d0266-pulp.mps ratio None allow None threads None presolve on strong None gomory on knapsack on probing on branch printingOptions all solution /tmp/6358672ff0d74a72a5001a29233d0266-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 38 RHS
+At line 47 BOUNDS
+At line 52 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+String of None is illegal for double parameter ratioGap value remains 0
+String of None is illegal for double parameter allowableGap value remains 0
+String of None is illegal for integer parameter threads value remains 0
+String of None is illegal for integer parameter strongBranching value remains 5
+Option for gomoryCuts changed from ifmove to on
+Option for knapsackCuts changed from ifmove to on
+Continuous objective value is 2479.35 - 0.00 seconds
+Cgl0004I processed model has 6 rows, 4 columns (4 integer (0 of which binary)) and 12 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 2480 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective 2480, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 2479.35 to 2479.35
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                2480.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/ccc6653491354c06b5ea24ff27adf77e-pulp.mps ratio None allow None threads None presolve on strong None gomory on knapsack on probing on branch printingOptions all solution /tmp/ccc6653491354c06b5ea24ff27adf77e-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 30 RHS
+At line 39 BOUNDS
+At line 44 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+String of None is illegal for double parameter ratioGap value remains 0
+String of None is illegal for double parameter allowableGap value remains 0
+String of None is illegal for integer parameter threads value remains 0
+String of None is illegal for integer parameter strongBranching value remains 5
+Option for gomoryCuts changed from ifmove to on
+Option for knapsackCuts changed from ifmove to on
+Presolve 6 (-2) rows, 4 (0) columns and 12 (-2) elements
+0  Obj 0 Primal inf 0.40393499 (2)
+3  Obj 0.053384765
+Optimal - objective value 0.053384765
+After Postsolve, objective 0.053384765, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.05338476538 - 3 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 5
+EVAL forest-size 30
+EVAL time-forest-construction 1.8932335376739502
+EVAL df-to-dict-time 13.532850503921509
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.9
+EVAL alpha 1.05
+EVAL classification-time 310.2181987762451
+EVAL true-positive-before 10431
+EVAL false-positive-before 496
+EVAL true-negative-before 34593
+EVAL false-negative-before 923
+EVAL precision-before 0.9546078521094536
+EVAL recall-before 0.9187070635899243
+EVAL accuracy-before 0.9694464181900394
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-before [6679, 6578, 6460, 6810, 6489, 6689, 6230, 6662, 6666, 6674, 6530, 6581, 6567, 6828, 6415, 6489, 6718, 6629, 6615, 6599, 6441, 6607, 6649, 6620, 6408, 6492, 6613, 6588, 6504, 6608]
+EVAL time-get-hcubes 157.85704922676086
+EVAL time-divide-hcubes 362.36886620521545
+EVAL time-assign-points 181.59469866752625
+EVAL time-intersection 234.90555596351624
+EVAL num-hcubes-split-nonzero [6681, 6768, 6793, 7058, 6880, 6961, 6502, 6963, 6674, 7102, 6530, 6990, 6983, 7091, 6589, 6489, 7176, 7277, 7147, 7041, 6960, 6775, 7292, 6921, 6714, 7054, 7140, 7053, 6606, 6876]
+EVAL num-hcubes-split-all [10956, 11335, 10652, 7636, 9549, 11845, 9384, 11911, 6684, 10710, 6530, 10544, 9999, 12162, 6971, 6489, 11090, 10625, 10064, 9047, 10364, 10670, 10698, 8202, 10450, 9297, 11174, 10123, 7032, 11556]
+EVAL size-of-sens-groups [15203, 31240]
+EVAL init-passing-rates [0.10550549233703874, 0.2984314980793854]
+EVAL theoretical-min-change 2480.0
+EVAL theoretical-min-change-list [2.479e+03 1.000e+00]
+EVAL theoretical-optimal-passing-nums [4083. 9322.]
+EVAL refinement-needed Y
+0.26858835
+0.2984315
+[(1604, 4084), (9323, 0)]
+[15203, 31240]
+what [4084, 9323]
+EVAL data-points-changed-group [2480, 0]
+EVAL data-points-changed-total 2480
+EVAL final-fairness [(1.0, 0, 0), (0.9001435603851792, 0, 1), (1.1109339043342057, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 927.6
+EVAL time_flip 124.10470914840698
+EVAL true-positive-after 10431
+EVAL false-positive-after 2976
+EVAL true-negative-after 32113
+EVAL false-negative-after 923
+EVAL precision-after 0.7780264041172522
+EVAL recall-after 0.9187070635899243
+EVAL accuracy-after 0.9160476282755206
+EVAL repair-time 1067.7364475727081
+EVAL init-fairness [(1.0, 0, 0), (0.3535333670073035, 0, 1), (2.8285873225067935, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [6681, 6768, 6793, 7058, 6880, 6961, 6502, 6963, 6674, 7102, 6530, 6990, 6983, 7091, 6589, 6489, 7176, 7277, 7147, 7041, 6960, 6775, 7292, 6921, 6714, 7054, 7140, 7053, 6606, 6876]
+EVAL num-hcubes-final-all [10956, 11335, 10652, 7636, 9549, 11845, 9384, 11911, 6684, 10710, 6530, 10544, 9999, 12162, 6971, 6489, 11090, 10625, 10064, 9047, 10364, 10670, 10698, 8202, 10450, 9297, 11174, 10123, 7032, 11556]
+EVAL time-total 1394.1221449375153

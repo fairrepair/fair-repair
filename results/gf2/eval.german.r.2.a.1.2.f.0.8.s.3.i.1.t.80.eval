@@ -1,0 +1,55 @@
+EVAL random-seed 2
+EVAL forest-size 80
+EVAL time-forest-construction 0.1815173625946045
+EVAL df-to-dict-time 0.2413499355316162
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 8.734848976135254
+EVAL true-positive-before 260
+EVAL false-positive-before 7
+EVAL true-negative-before 693
+EVAL false-negative-before 40
+EVAL precision-before 0.9737827715355806
+EVAL recall-before 0.8666666666666667
+EVAL accuracy-before 0.953
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-before [167, 202, 198, 190, 195, 169, 197, 180, 183, 195, 202, 191, 204, 195, 190, 206, 200, 196, 193, 193, 191, 186, 179, 195, 193, 203, 189, 204, 182, 193, 182, 214, 215, 179, 184, 226, 196, 204, 182, 180, 197, 185, 180, 191, 198, 184, 203, 186, 196, 209, 197, 197, 174, 180, 205, 193, 214, 191, 189, 199, 173, 174, 196, 197, 166, 192, 198, 175, 176, 187, 200, 197, 194, 200, 189, 195, 199, 205, 189, 187]
+EVAL time-get-hcubes 4.165508031845093
+EVAL time-divide-hcubes 12.07209825515747
+EVAL time-assign-points 2.6914334297180176
+EVAL time-intersection 0.375917911529541
+EVAL num-hcubes-split-nonzero [189, 219, 216, 212, 213, 191, 224, 201, 197, 219, 226, 213, 228, 204, 205, 223, 223, 222, 214, 216, 214, 202, 201, 214, 220, 228, 205, 224, 204, 211, 207, 240, 240, 194, 207, 249, 218, 222, 182, 197, 219, 205, 201, 204, 222, 186, 225, 209, 220, 230, 218, 217, 196, 199, 223, 217, 241, 213, 207, 219, 193, 197, 218, 223, 180, 212, 220, 203, 195, 211, 224, 220, 215, 215, 214, 216, 223, 229, 211, 197]
+EVAL num-hcubes-split-all [334, 364, 386, 372, 355, 338, 383, 355, 339, 381, 404, 382, 398, 273, 343, 379, 393, 379, 386, 386, 379, 320, 356, 342, 384, 404, 362, 396, 364, 371, 364, 413, 424, 321, 368, 445, 392, 381, 182, 346, 386, 363, 347, 324, 394, 217, 401, 355, 389, 413, 386, 394, 348, 353, 397, 386, 419, 375, 368, 392, 311, 348, 392, 394, 269, 373, 396, 350, 345, 357, 400, 394, 365, 383, 373, 369, 392, 410, 378, 302]
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.2731048805815161, 0.10810810810810811]
+EVAL theoretical-min-change 5.0
+EVAL theoretical-min-change-list [0. 5.]
+EVAL theoretical-optimal-passing-nums [263.   9.]
+EVAL refinement-needed Y
+0.2184839
+0.27310488
+[(263, 0), (4, 9)]
+[963, 37]
+what [263, 9]
+EVAL data-points-changed-group [0, 7]
+EVAL data-points-changed-total 7
+EVAL final-fairness [(1.0, 0, 0), (1.122764509057344, 0, 1), (0.8906587195560579, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 2.3875
+EVAL time_flip 0.8237960338592529
+EVAL true-positive-after 259
+EVAL false-positive-after 13
+EVAL true-negative-after 687
+EVAL false-negative-after 41
+EVAL precision-after 0.9522058823529411
+EVAL recall-after 0.8633333333333333
+EVAL accuracy-after 0.946
+EVAL repair-time 20.458865880966187
+EVAL init-fairness [(1.0, 0, 0), (2.526220145379024, 0, 1), (0.3958483198026924, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [189, 219, 216, 212, 213, 191, 224, 201, 197, 219, 226, 213, 228, 204, 205, 223, 223, 222, 214, 216, 214, 202, 201, 214, 220, 228, 205, 224, 204, 211, 207, 240, 240, 194, 207, 249, 218, 222, 182, 197, 219, 205, 201, 204, 222, 186, 225, 209, 220, 230, 218, 217, 196, 199, 223, 217, 241, 213, 207, 219, 193, 197, 218, 223, 180, 212, 220, 203, 195, 211, 224, 220, 215, 215, 214, 216, 223, 229, 211, 197]
+EVAL num-hcubes-final-all [334, 364, 386, 372, 355, 338, 383, 355, 339, 381, 404, 382, 398, 273, 343, 379, 393, 379, 386, 386, 379, 320, 356, 342, 384, 404, 362, 396, 364, 371, 364, 413, 424, 321, 368, 445, 392, 381, 182, 346, 386, 363, 347, 324, 394, 217, 401, 355, 389, 413, 386, 394, 348, 353, 397, 386, 419, 375, 368, 392, 311, 348, 392, 394, 269, 373, 396, 350, 345, 357, 400, 394, 365, 383, 373, 369, 392, 410, 378, 302]
+EVAL time-total 29.68539786338806

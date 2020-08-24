@@ -1,0 +1,55 @@
+EVAL random-seed 2
+EVAL forest-size 10
+EVAL time-forest-construction 0.02792525291442871
+EVAL df-to-dict-time 0.22539710998535156
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 3.0772788524627686
+EVAL true-positive-before 240
+EVAL false-positive-before 9
+EVAL true-negative-before 691
+EVAL false-negative-before 60
+EVAL precision-before 0.963855421686747
+EVAL recall-before 0.8
+EVAL accuracy-before 0.931
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-before [167, 202, 198, 190, 195, 169, 197, 180, 183, 195]
+EVAL time-get-hcubes 0.41689157485961914
+EVAL time-divide-hcubes 1.2466540336608887
+EVAL time-assign-points 0.30579376220703125
+EVAL time-intersection 0.11668777465820312
+EVAL num-hcubes-split-nonzero [189, 219, 216, 212, 213, 191, 224, 201, 197, 219]
+EVAL num-hcubes-split-all [334, 364, 386, 372, 355, 338, 383, 355, 339, 381]
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.2564901349948079, 0.05405405405405406]
+EVAL theoretical-min-change 6.0
+EVAL theoretical-min-change-list [0. 6.]
+EVAL theoretical-optimal-passing-nums [247.   8.]
+EVAL refinement-needed Y
+0.20519211
+0.25649013
+[(247, 0), (2, 8)]
+[963, 37]
+what [247, 8]
+EVAL data-points-changed-group [0, 8]
+EVAL data-points-changed-total 8
+EVAL final-fairness [(1.0, 0, 0), (1.1862668743509865, 0, 1), (0.8429806324543166, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 4.3
+EVAL time_flip 0.8716940879821777
+EVAL true-positive-after 239
+EVAL false-positive-after 16
+EVAL true-negative-after 684
+EVAL false-negative-after 61
+EVAL precision-after 0.9372549019607843
+EVAL recall-after 0.7966666666666666
+EVAL accuracy-after 0.923
+EVAL repair-time 3.094353675842285
+EVAL init-fairness [(1.0, 0, 0), (4.745067497403945, 0, 1), (0.2107451581135792, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [189, 219, 216, 212, 213, 191, 224, 201, 197, 219]
+EVAL num-hcubes-final-all [334, 364, 386, 372, 355, 338, 383, 355, 339, 381]
+EVAL time-total 6.4818034172058105

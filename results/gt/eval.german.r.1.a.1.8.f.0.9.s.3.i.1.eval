@@ -1,0 +1,55 @@
+EVAL random-seed 1
+EVAL time-tree-construction 0.01695704460144043
+EVAL df-to-dict-time 0.2523231506347656
+EVAL classification-time 2.068559169769287
+EVAL true-positive-before 262
+EVAL false-positive-before 33
+EVAL true-negative-before 667
+EVAL false-negative-before 38
+EVAL precision-before 0.888135593220339
+EVAL recall-before 0.8733333333333333
+EVAL accuracy-before 0.929
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.9
+EVAL alpha 1.8
+EVAL input-tree ././rq5-german-tree/eval.german.r.1.a.1.8.f.0.9.s.3.i.1.pkl.tree
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL num-hcubes-before 156
+EVAL time-divide-hcubes 0.0937495231628418
+EVAL time-assign-points 0.026927947998046875
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-split-nonzero 176
+EVAL num-hcubes-split-all 312
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.3011422637590862, 0.13513513513513514]
+(90, 100)
+[289.  10.]
+[1. 5.]
+EVAL theoretical-min-change 6.0
+EVAL theoretical-min-change-list [1. 5.]
+passNums-before: [290, 5]
+proportions: [963, 37]
+passNums-after [289, 10]
+EVAL time-flip-smt 0.18057513236999512
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.18057513236999512
+EVAL time-repair-all 0.38802027702331543
+EVAL init-fairness [(1.0, 0, 0), (2.2284527518172377, 0, 1), (0.4487418452935694, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (1.1103842159916926, 0, 1), (0.9005891704853642, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 176
+EVAL num-hcubes-after-all 312
+EVAL data-points-changed-group [1, 5]
+EVAL data-points-changed-total 6
+EVAL time-total 2.798664093017578
+EVAL true-positive-after 261
+EVAL false-positive-after 38
+EVAL true-negative-after 662
+EVAL false-negative-after 39
+EVAL precision-after 0.8729096989966555
+EVAL recall-after 0.87
+EVAL accuracy-after 0.923

@@ -1,0 +1,116 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/bf788e740b324133bbad125cc7e36003-pulp.mps branch printingOptions all solution /tmp/bf788e740b324133bbad125cc7e36003-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 38 RHS
+At line 47 BOUNDS
+At line 52 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 611.03 - 0.00 seconds
+Cgl0004I processed model has 6 rows, 4 columns (4 integer (0 of which binary)) and 12 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 612 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective 612, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 611.03 to 611.03
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                612.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/3726e8ce78ae49d8b7d54dd112c20988-pulp.mps branch printingOptions all solution /tmp/3726e8ce78ae49d8b7d54dd112c20988-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 30 RHS
+At line 39 BOUNDS
+At line 44 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Presolve 6 (-2) rows, 4 (0) columns and 12 (-2) elements
+0  Obj 0 Primal inf 0.41367012 (2)
+3  Obj 0.043930522
+Optimal - objective value 0.043930522
+After Postsolve, objective 0.043930522, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.04393052245 - 3 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 2
+EVAL forest-size 30
+EVAL time-forest-construction 0.45418739318847656
+EVAL df-to-dict-time 4.625931978225708
+EVAL data-file adult.data.15000
+EVAL num-input-points 15000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 92.10424566268921
+EVAL true-positive-before 3209
+EVAL false-positive-before 160
+EVAL true-negative-before 10255
+EVAL false-negative-before 285
+EVAL precision-before 0.9525081626595429
+EVAL recall-before 0.9184315970234688
+EVAL accuracy-before 0.9680063268387376
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-before [2160, 2050, 2089, 2109, 2052, 1991, 2013, 2048, 2036, 2124, 2047, 2073, 1971, 2014, 2069, 1969, 2046, 1996, 2098, 2089, 1976, 1921, 1987, 2030, 2105, 2073, 1971, 1949, 2070, 2056]
+EVAL time-get-hcubes 38.67505598068237
+EVAL time-divide-hcubes 87.53303146362305
+EVAL time-assign-points 45.66148090362549
+EVAL time-intersection 24.55181574821472
+EVAL num-hcubes-split-nonzero [2372, 2263, 2260, 2123, 2053, 2209, 2133, 2121, 2222, 2292, 2187, 2202, 2162, 2134, 2076, 2109, 2305, 2216, 2098, 2256, 2162, 2122, 2080, 2188, 2280, 2073, 2013, 2127, 2070, 2265]
+EVAL num-hcubes-split-all [3887, 2870, 3866, 2144, 2053, 3148, 3288, 2220, 3419, 3225, 3712, 3271, 3481, 3573, 2088, 3343, 3553, 3283, 2098, 3492, 2928, 2983, 3331, 3039, 3844, 2073, 3303, 2781, 2070, 3269]
+EVAL size-of-sens-groups [4468, 9441]
+EVAL init-passing-rates [0.10787824529991047, 0.3057938777671857]
+EVAL theoretical-min-change 612.0
+EVAL theoretical-min-change-list [611.   1.]
+EVAL theoretical-optimal-passing-nums [1093. 2886.]
+EVAL refinement-needed Y
+0.2446351
+0.30579388
+[(482, 1094), (2887, 0)]
+[4468, 9441]
+what [1212, 2887]
+EVAL data-points-changed-group [736, 0]
+EVAL data-points-changed-total 736
+EVAL final-fairness [(1.0, 0, 0), (0.8870756724724392, 0, 1), (1.1272995427919024, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 358.2
+EVAL time_flip 17.97614574432373
+EVAL true-positive-after 3219
+EVAL false-positive-after 880
+EVAL true-negative-after 9535
+EVAL false-negative-after 275
+EVAL precision-after 0.7853134910953892
+EVAL recall-after 0.9212936462507155
+EVAL accuracy-after 0.9169602415702064
+EVAL repair-time 216.10088467597961
+EVAL init-fairness [(1.0, 0, 0), (0.35278091925059046, 0, 1), (2.8346204271032898, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [2372, 2263, 2260, 2123, 2053, 2209, 2133, 2121, 2222, 2292, 2187, 2202, 2162, 2134, 2076, 2109, 2305, 2216, 2098, 2256, 2162, 2122, 2080, 2188, 2280, 2073, 2013, 2127, 2070, 2265]
+EVAL num-hcubes-final-all [3887, 2870, 3866, 2144, 2053, 3148, 3288, 2220, 3419, 3225, 3712, 3271, 3481, 3573, 2088, 3343, 3553, 3283, 2098, 3492, 2928, 2983, 3331, 3039, 3844, 2073, 3303, 2781, 2070, 3269]
+EVAL time-total 313.5360209941864

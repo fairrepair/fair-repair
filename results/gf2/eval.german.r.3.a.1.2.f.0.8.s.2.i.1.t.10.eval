@@ -1,0 +1,55 @@
+EVAL random-seed 3
+EVAL forest-size 10
+EVAL time-forest-construction 0.026928424835205078
+EVAL df-to-dict-time 0.22041034698486328
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 3.023942708969116
+EVAL true-positive-before 243
+EVAL false-positive-before 11
+EVAL true-negative-before 689
+EVAL false-negative-before 57
+EVAL precision-before 0.9566929133858267
+EVAL recall-before 0.81
+EVAL accuracy-before 0.932
+EVAL sensitive-attrs ['Sex']
+EVAL sensitive-[Attr]-values [['Sex_A91', 'Sex_A92', 'Sex_A93', 'Sex_A94']]
+EVAL init-num-hcubesets 4
+EVAL sens-groups [['Sex_A91'], ['Sex_A92'], ['Sex_A93'], ['Sex_A94']]
+EVAL num-hcubes-before [210, 191, 196, 169, 172, 186, 192, 194, 177, 183]
+EVAL time-get-hcubes 0.41887688636779785
+EVAL time-divide-hcubes 1.733550786972046
+EVAL time-assign-points 0.3121621608734131
+EVAL time-intersection 0.10870933532714844
+EVAL num-hcubes-split-nonzero [363, 335, 311, 306, 313, 344, 340, 318, 343, 307]
+EVAL num-hcubes-split-all [699, 642, 529, 556, 618, 649, 604, 558, 638, 544]
+EVAL size-of-sens-groups [50, 310, 548, 92]
+EVAL init-passing-rates [0.32, 0.3064516129032258, 0.21715328467153286, 0.2608695652173913]
+EVAL theoretical-min-change 14.0
+EVAL theoretical-min-change-list [ 3. 11.  0.  0.]
+EVAL theoretical-optimal-passing-nums [ 13.  84. 119.  24.]
+EVAL refinement-needed Y
+0.21715328
+0.27144161
+[(16, 13), (95, 84), (119, 0), (24, 0)]
+[50, 310, 548, 92]
+what [13, 84, 119, 24]
+EVAL data-points-changed-group [5, 15, 0, 0]
+EVAL data-points-changed-total 20
+EVAL final-fairness [(1.0, 0, 0), (0.9595238095238096, 0, 1), (1.197310924369748, 0, 2), (0.9966666666666667, 0, 3), (1.0421836228287842, 1, 0), (1.0, 1, 1), (1.2478178368121442, 1, 2), (1.038709677419355, 1, 3), (0.835204941044357, 2, 0), (0.8013990267639902, 2, 1), (1.0, 2, 2), (0.8324209245742092, 2, 3), (1.0033444816053512, 3, 0), (0.9627329192546584, 3, 1), (1.2013153087321886, 3, 2), (1.0, 3, 3)]
+EVAL average-syntactic-change 6.6
+EVAL time_flip 1.1708629131317139
+EVAL true-positive-after 226
+EVAL false-positive-after 14
+EVAL true-negative-after 686
+EVAL false-negative-after 74
+EVAL precision-after 0.9416666666666667
+EVAL recall-after 0.7533333333333333
+EVAL accuracy-after 0.912
+EVAL repair-time 3.904756546020508
+EVAL init-fairness [(1.0, 0, 0), (1.0442105263157895, 0, 1), (1.4736134453781513, 0, 2), (1.2266666666666668, 0, 3), (0.9576612903225806, 1, 0), (1.0, 1, 1), (1.411222553537544, 1, 2), (1.174731182795699, 1, 3), (0.6786040145985401, 2, 0), (0.7086054552439494, 2, 1), (1.0, 2, 2), (0.8324209245742094, 2, 3), (0.8152173913043478, 3, 0), (0.8512585812356979, 3, 1), (1.2013153087321884, 3, 2), (1.0, 3, 3)]
+EVAL num-hcubes-final-nonzero [363, 335, 311, 306, 313, 344, 340, 318, 343, 307]
+EVAL num-hcubes-final-all [699, 642, 529, 556, 618, 649, 604, 558, 638, 544]
+EVAL time-total 7.233882904052734

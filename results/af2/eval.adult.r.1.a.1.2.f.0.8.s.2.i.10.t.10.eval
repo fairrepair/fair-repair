@@ -1,0 +1,62 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/jiang/.local/lib/python3.5/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/714e45775faa4edb8dfef40824376d5f-pulp.mps branch printingOptions all solution /tmp/714e45775faa4edb8dfef40824376d5f-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 24 COLUMNS
+At line 65 RHS
+At line 85 BOUNDS
+At line 96 ENDATA
+Problem MODEL has 19 rows, 10 columns and 35 elements
+Coin0008I MODEL read with 0 errors
+Presolve 16 (-3) rows, 10 (0) columns and 32 (-3) elements
+0  Obj 0 Primal inf 0.81277504 (5)
+7  Obj 0.0084879462
+Optimal - objective value 0.0084879462
+After Postsolve, objective 0.0084879462, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.00848794624 - 7 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 1
+EVAL forest-size 10
+EVAL time-forest-construction 0.5821647644042969
+EVAL df-to-dict-time 15.942822933197021
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 112.51135206222534
+EVAL sensitive-attrs ['race']
+EVAL sensitive-[Attr]-values [['race_AmerIndianEskimo', 'race_AsianPacIslander', 'race_Black', 'race_Other', 'race_White']]
+EVAL init-num-hcubesets 5
+EVAL sens-groups [['race_AmerIndianEskimo'], ['race_AsianPacIslander'], ['race_Black'], ['race_Other'], ['race_White']]
+EVAL num-hcubes-before [6172, 6659, 6581, 6588, 6511, 6533, 6526, 6658, 6666, 6309]
+EVAL time-get-hcubes 48.02160978317261
+EVAL time-divide-hcubes 178.29866766929626
+EVAL time-assign-points 55.16821002960205
+EVAL time-intersection 186.0880467891693
+EVAL num-hcubes-split-nonzero [7033, 8027, 7938, 8042, 7694, 7536, 7863, 7890, 7924, 7510]
+EVAL num-hcubes-split-all [17193, 21282, 21165, 20913, 18876, 16973, 20736, 20526, 21165, 19417]
+EVAL size-of-sens-groups [0.009581637706435846, 0.029606183924380424, 0.09426608961522727, 0.007880627866416898, 0.8586654608875396]
+EVAL init-passing-rates [0.10561797752808989, 0.25018181818181817, 0.10598446779351302, 0.1092896174863388, 0.24170616113744076]
+EVAL theoretical-min-change 395
+EVAL theoretical-min-change-list [0.         0.00847566 0.08738046 0.         0.        ]
+EVAL refinement-needed Y
+EVAL time-intersection 185.5957911014557
+[0.10561797752808989, 0.26036363636363635, 0.2105984467793513, 0.1092896174863388, 0.24170616113744076]
+EVAL data-points-changed-group [0, 14, 460, 0, 0]
+EVAL data-points-changed-total 474
+EVAL final-fairness [(1.0, 1, 1), (1.2363036876355749, 1, 2), (1.0771907308377897, 1, 4), (0.8088627495016985, 2, 1), (1.0, 2, 2), (0.8712994562831985, 2, 4), (0.9283407026926844, 4, 1), (1.1477110341211667, 4, 2), (1.0, 4, 4)]
+EVAL average-syntactic-change 255.2
+EVAL time_flip 29.909175395965576
+EVAL num-hcubes-refine-1-nonzero [7797, 9262, 8838, 9033, 8733, 8667, 8809, 8737, 9102, 8220]
+EVAL num-hcubes-refine-1-all [24226, 29309, 29103, 28955, 26570, 24509, 28599, 28416, 29089, 26927]
+EVAL refinement-steps 1
+EVAL repair-time 726.427255153656
+EVAL init-fairness [(1.0, 0, 0), (0.42216488110791744, 0, 1), (0.9965420379697792, 0, 2), (0.9664044943820226, 0, 3), (0.43696849526327386, 0, 4), (2.3687427466150868, 1, 0), (1.0, 1, 1), (2.360551724137931, 1, 2), (2.2891636363636363, 1, 3), (1.0350659536541889, 1, 4), (1.003469961023687, 2, 0), (0.4236297767909314, 2, 1), (1.0, 2, 2), (0.9697578803106441, 2, 3), (0.4384847589104166, 2, 4), (1.034763399604697, 3, 0), (0.4368407675689414, 3, 1), (1.031185227058602, 3, 2), (1.0, 3, 3), (0.4521590056787742, 3, 4), (2.288494504386407, 4, 0), (0.96612201036041, 4, 1), (2.28058097728387, 4, 2), (2.211611374407583, 4, 3), (1.0, 4, 4)]
+EVAL num-hcubes-final-nonzero [7797, 9262, 8838, 9033, 8733, 8667, 8809, 8737, 9102, 8220]
+EVAL num-hcubes-final-all [24226, 29309, 29103, 28955, 26570, 24509, 28599, 28416, 29089, 26927]
+EVAL time-total 855.9833877086639

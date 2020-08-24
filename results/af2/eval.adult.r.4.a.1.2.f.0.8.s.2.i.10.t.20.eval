@@ -1,0 +1,62 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/jiang/.local/lib/python3.5/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/0ab7650281784494b885d95ca77f46aa-pulp.mps branch printingOptions all solution /tmp/0ab7650281784494b885d95ca77f46aa-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 24 COLUMNS
+At line 65 RHS
+At line 85 BOUNDS
+At line 96 ENDATA
+Problem MODEL has 19 rows, 10 columns and 35 elements
+Coin0008I MODEL read with 0 errors
+Presolve 16 (-3) rows, 10 (0) columns and 32 (-3) elements
+0  Obj 0 Primal inf 0.84819421 (5)
+7  Obj 0.008614339
+Optimal - objective value 0.008614339
+After Postsolve, objective 0.008614339, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.008614338956 - 7 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 4
+EVAL forest-size 20
+EVAL time-forest-construction 1.0177600383758545
+EVAL df-to-dict-time 16.584943532943726
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 164.95452070236206
+EVAL sensitive-attrs ['race']
+EVAL sensitive-[Attr]-values [['race_AmerIndianEskimo', 'race_AsianPacIslander', 'race_Black', 'race_Other', 'race_White']]
+EVAL init-num-hcubesets 5
+EVAL sens-groups [['race_AmerIndianEskimo'], ['race_AsianPacIslander'], ['race_Black'], ['race_Other'], ['race_White']]
+EVAL num-hcubes-before [6246, 6684, 6650, 6436, 6584, 6756, 6383, 6603, 6607, 6633, 6454, 6484, 6400, 6644, 6269, 6551, 6481, 6435, 6642, 6579]
+EVAL time-get-hcubes 117.90507698059082
+EVAL time-divide-hcubes 405.3135669231415
+EVAL time-assign-points 126.56923007965088
+EVAL time-intersection 227.26699423789978
+EVAL num-hcubes-split-nonzero [7391, 7838, 7928, 7729, 7528, 8186, 7636, 7948, 7909, 8034, 7779, 7673, 7693, 7999, 7402, 7738, 7678, 7607, 7918, 6737]
+EVAL num-hcubes-split-all [19420, 19230, 21512, 19944, 15979, 22625, 20132, 21796, 20486, 20863, 19895, 18666, 19334, 19540, 18193, 19565, 20109, 17895, 21033, 7149]
+EVAL size-of-sens-groups [0.009581637706435846, 0.029606183924380424, 0.09426608961522727, 0.007880627866416898, 0.8586654608875396]
+EVAL init-passing-rates [0.09213483146067415, 0.2727272727272727, 0.11489264504339881, 0.12021857923497267, 0.24822588329697334]
+EVAL theoretical-min-change 401
+EVAL theoretical-min-change-list [0.         0.02450139 0.08368806 0.         0.        ]
+EVAL refinement-needed Y
+EVAL time-intersection 221.4542453289032
+[0.09213483146067415, 0.25018181818181817, 0.21219735038830517, 0.12021857923497267, 0.24822588329697334]
+EVAL data-points-changed-group [0, 41, 440, 0, 0]
+EVAL data-points-changed-total 481
+EVAL final-fairness [(1.0, 1, 1), (1.179005382131324, 1, 2), (1.0078796572656559, 1, 4), (0.848172548790464, 2, 1), (1.0, 2, 2), (0.8548558577770705, 2, 4), (0.9921819463178441, 4, 1), (1.1697878547622704, 4, 2), (1.0, 4, 4)]
+EVAL average-syntactic-change 241.25
+EVAL time_flip 1105.4906933307648
+EVAL num-hcubes-refine-1-nonzero [8118, 8672, 8816, 8700, 8541, 9210, 8668, 8836, 8730, 9081, 8750, 8389, 8594, 9138, 8125, 8795, 8659, 8508, 8901, 7609]
+EVAL num-hcubes-refine-1-all [26811, 27068, 29440, 27673, 23507, 30811, 27768, 29744, 28395, 28897, 27674, 26339, 27027, 27539, 25595, 27303, 27787, 25502, 28951, 13886]
+EVAL refinement-steps 1
+EVAL repair-time 2289.0520617961884
+EVAL init-fairness [(1.0, 0, 0), (0.33782771535580525, 0, 1), (0.8019210579221301, 0, 2), (0.7663942798774259, 0, 3), (0.3711733451682215, 0, 4), (2.9600886917960088, 1, 0), (1.0, 1, 1), (2.3737574552683895, 1, 2), (2.268595041322314, 1, 3), (1.0987060217285491, 1, 4), (1.247005537666158, 2, 0), (0.4212730318257957, 2, 1), (1.0, 2, 2), (0.9556979110428174, 2, 3), (0.46285521685884445, 2, 4), (1.3048114087698255, 3, 0), (0.4408014571948998, 3, 1), (1.0463557453095633, 3, 2), (1.0, 3, 3), (0.48431121540675576, 3, 4), (2.6941589772476378, 4, 0), (0.9101615720889024, 4, 1), (2.1605028172448297, 4, 2), (2.0647880292430054, 4, 3), (1.0, 4, 4)]
+EVAL num-hcubes-final-nonzero [8118, 8672, 8816, 8700, 8541, 9210, 8668, 8836, 8730, 9081, 8750, 8389, 8594, 9138, 8125, 8795, 8659, 8508, 8901, 7609]
+EVAL num-hcubes-final-all [26811, 27068, 29440, 27673, 23507, 30811, 27768, 29744, 28395, 28897, 27674, 26339, 27027, 27539, 25595, 27303, 27787, 25502, 28951, 13886]
+EVAL time-total 2472.278827905655

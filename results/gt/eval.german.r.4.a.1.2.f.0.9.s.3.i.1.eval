@@ -1,0 +1,55 @@
+EVAL random-seed 4
+EVAL time-tree-construction 0.013962745666503906
+EVAL df-to-dict-time 0.26030445098876953
+EVAL classification-time 2.2789483070373535
+EVAL true-positive-before 271
+EVAL false-positive-before 28
+EVAL true-negative-before 672
+EVAL false-negative-before 29
+EVAL precision-before 0.9063545150501672
+EVAL recall-before 0.9033333333333333
+EVAL accuracy-before 0.943
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.9
+EVAL alpha 1.2
+EVAL input-tree ././rq5-german-tree/eval.german.r.4.a.1.2.f.0.9.s.3.i.1.pkl.tree
+EVAL sensitive-attrs ['ForeignWorker']
+EVAL sensitive-[Attr]-values [['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL num-hcubes-before 165
+EVAL time-divide-hcubes 0.11526274681091309
+EVAL time-assign-points 0.034941673278808594
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['ForeignWorker_A201'], ['ForeignWorker_A202']]
+EVAL num-hcubes-split-nonzero 182
+EVAL num-hcubes-split-all 330
+EVAL size-of-sens-groups [963, 37]
+EVAL init-passing-rates [0.3063343717549325, 0.10810810810810811]
+(90, 100)
+[295.  11.]
+[0. 7.]
+EVAL theoretical-min-change 7.0
+EVAL theoretical-min-change-list [0. 7.]
+passNums-before: [295, 4]
+proportions: [963, 37]
+passNums-after [295, 11]
+EVAL time-flip-smt 0.20345473289489746
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.20345473289489746
+EVAL time-repair-all 0.45934414863586426
+EVAL init-fairness [(1.0, 0, 0), (2.8335929387331253, 0, 1), (0.35290884104443426, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (1.0303974322665912, 0, 1), (0.9704993128721943, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 182
+EVAL num-hcubes-after-all 330
+EVAL data-points-changed-group [0, 7]
+EVAL data-points-changed-total 7
+EVAL time-total 3.0793797969818115
+EVAL true-positive-after 271
+EVAL false-positive-after 35
+EVAL true-negative-after 665
+EVAL false-negative-after 29
+EVAL precision-after 0.8856209150326797
+EVAL recall-after 0.9033333333333333
+EVAL accuracy-after 0.936

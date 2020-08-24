@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.9644200801849365
+EVAL df-to-dict-time 13.561947584152222
+EVAL classification-time 132.89589476585388
+EVAL true-positive-before 10514
+EVAL false-positive-before 861
+EVAL true-negative-before 34228
+EVAL false-negative-before 840
+EVAL precision-before 0.9243076923076923
+EVAL recall-before 0.9260172626387176
+EVAL accuracy-before 0.9633744590142755
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.9
+EVAL alpha 1.05
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.5.a.1.05.f.0.9.s.1.i.1.pkl.tree
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL num-hcubes-before 5496
+EVAL time-divide-hcubes 10.142954349517822
+EVAL time-assign-points 6.804870367050171
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-split-nonzero 6481
+EVAL num-hcubes-split-all 9921
+EVAL size-of-sens-groups [15203, 31240]
+EVAL init-passing-rates [0.11096494113004013, 0.3101152368758003]
+(90, 100)
+[4243. 9687.]
+[2.556e+03 1.000e+00]
+EVAL theoretical-min-change 2557.0
+EVAL theoretical-min-change-list [2.556e+03 1.000e+00]
+passNums-before: [1687, 9688]
+proportions: [15203, 31240]
+passNums-after [4357, 9690]
+EVAL time-flip-smt 9.450927734375
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 9.450927734375
+EVAL time-repair-all 30.599565267562866
+EVAL init-fairness [(1.0, 0, 0), (0.35781841049777596, 0, 1), (2.7947136610686374, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (0.9239437086279275, 0, 1), (1.082317018517305, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 6481
+EVAL num-hcubes-after-all 9921
+EVAL data-points-changed-group [2684, 2]
+EVAL data-points-changed-total 2686
+EVAL time-total 182.44107484817505
+EVAL true-positive-after 10630
+EVAL false-positive-after 3417
+EVAL true-negative-after 31672
+EVAL false-negative-after 724
+EVAL precision-after 0.7567452125008899
+EVAL recall-after 0.9362339263695614
+EVAL accuracy-after 0.9108369399048296

@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.8766560554504395
+EVAL df-to-dict-time 12.504889965057373
+EVAL classification-time 124.00035905838013
+EVAL true-positive-before 10514
+EVAL false-positive-before 861
+EVAL true-negative-before 34228
+EVAL false-negative-before 840
+EVAL precision-before 0.9243076923076923
+EVAL recall-before 0.9260172626387176
+EVAL accuracy-before 0.9633744590142755
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.95
+EVAL alpha 1.05
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.5.a.1.05.f.0.95.s.1.i.1.pkl.tree
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL num-hcubes-before 5496
+EVAL time-divide-hcubes 9.13084363937378
+EVAL time-assign-points 6.398935794830322
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-split-nonzero 6481
+EVAL num-hcubes-split-all 9921
+EVAL size-of-sens-groups [15203, 31240]
+EVAL init-passing-rates [0.11096494113004013, 0.3101152368758003]
+(95, 100)
+[4479. 9688.]
+[2792.    0.]
+EVAL theoretical-min-change 2792.0
+EVAL theoretical-min-change-list [2792.    0.]
+passNums-before: [1687, 9688]
+proportions: [15203, 31240]
+passNums-after [4615, 9688]
+EVAL time-flip-smt 6.78470253944397
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 6.78470253944397
+EVAL time-repair-all 26.32999062538147
+EVAL init-fairness [(1.0, 0, 0), (0.35781841049777596, 0, 1), (2.7947136610686374, 1, 0), (1.0, 1, 1)]
+EVAL final-fairness [(1.0, 0, 0), (0.978857121782594, 0, 1), (1.021599554977853, 1, 0), (1.0, 1, 1)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 6481
+EVAL num-hcubes-after-all 9921
+EVAL data-points-changed-group [2932, 0]
+EVAL data-points-changed-total 2932
+EVAL time-total 167.98498725891113
+EVAL true-positive-after 10636
+EVAL false-positive-after 3667
+EVAL true-negative-after 31422
+EVAL false-negative-after 718
+EVAL precision-after 0.7436202195343634
+EVAL recall-after 0.9367623744935706
+EVAL accuracy-after 0.9055831879938849

@@ -1,0 +1,101 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/0e07550ead424fb78161830999eaf468-pulp.mps branch printingOptions all solution /tmp/0e07550ead424fb78161830999eaf468-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 125 COLUMNS
+At line 406 RHS
+At line 527 BOUNDS
+At line 548 ENDATA
+Problem MODEL has 120 rows, 20 columns and 230 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 2407.68 - 0.00 seconds
+Cgl0004I processed model has 110 rows, 20 columns (20 integer (0 of which binary)) and 220 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 2413 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0031I 6 added rows had average density of 2
+Cbc0013I At root node, 22 cuts changed objective from 2407.6803 to 2412.354 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 5 column cuts (5 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 4 row cuts average 2.5 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 18 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0001I Search completed - best objective 2413, took 5 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 2407.68 to 2412.35
+Probing was tried 1 times and created 5 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 1 times and created 4 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 1 times and created 18 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                2413.00000000
+Enumerated nodes:               0
+Total iterations:               5
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.01
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.01
+
+EVAL random-seed 2
+EVAL time-tree-construction 0.5428907871246338
+EVAL df-to-dict-time 15.476978778839111
+EVAL classification-time 142.54254913330078
+EVAL true-positive-before 10534
+EVAL false-positive-before 934
+EVAL true-negative-before 34155
+EVAL false-negative-before 820
+EVAL precision-before 0.9185559818625741
+EVAL recall-before 0.9277787563854148
+EVAL accuracy-before 0.962233275197554
+EVAL data-file adult.data
+EVAL num-input-points 48842
+EVAL fairness-thresh 0.8
+EVAL alpha 1.6
+EVAL input-tree ././rq5-adult-tree/eval.adult.r.2.a.1.6.f.0.8.s.3.i.1.pkl.tree
+EVAL sensitive-attrs ['sex', 'race']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male'], ['race_AmerIndianEskimo', 'race_AsianPacIslander', 'race_Black', 'race_Other', 'race_White']]
+EVAL num-hcubes-before 5478
+EVAL time-divide-hcubes 54.44399285316467
+EVAL time-assign-points 7.433354616165161
+EVAL init-num-hcubesets 10
+EVAL sens-groups [['sex_Female', 'race_AmerIndianEskimo'], ['sex_Female', 'race_AsianPacIslander'], ['sex_Female', 'race_Black'], ['sex_Female', 'race_Other'], ['sex_Female', 'race_White'], ['sex_Male', 'race_AmerIndianEskimo'], ['sex_Male', 'race_AsianPacIslander'], ['sex_Male', 'race_Black'], ['sex_Male', 'race_Other'], ['sex_Male', 'race_White']]
+EVAL num-hcubes-split-nonzero 8209
+EVAL num-hcubes-split-all 43689
+EVAL size-of-sens-groups [173, 465, 2152, 133, 12280, 272, 910, 2226, 233, 27599]
+EVAL init-passing-rates [0.08092485549132948, 0.15483870967741936, 0.06505576208178439, 0.08270676691729323, 0.12271986970684039, 0.16911764705882354, 0.35384615384615387, 0.18912848158131176, 0.15450643776824036, 0.32243921881227583]
+EVAL theoretical-min-change 2413.0
+EVAL theoretical-min-change-list [  31.   48.  416.   24. 1661.   25.   29.  154.   25.    0.]
+EVAL theoretical-optimal-passing-nums [  45.  120.  556.   35. 3168.   71.  293.  575.   61. 8899.]
+passNums-before: [14, 72, 140, 11, 1507, 46, 322, 421, 36, 8899]
+proportions: [173, 465, 2152, 133, 12280, 272, 910, 2226, 233, 27599]
+passNums-after [54, 149, 564, 35, 3581, 71, 287, 655, 73, 8899]
+EVAL time-flip-smt 284.76927757263184
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 284.76927757263184
+EVAL time-repair-all 350.81290793418884
+EVAL init-fairness [(1.0, 0, 0), (0.5226396917148363, 0, 1), (1.2439306358381503, 0, 2), (0.9784550709406201, 0, 3), (0.6594274886751997, 0, 4), (0.4785121889922091, 0, 5), (0.22870067856245288, 0, 6), (0.4278829651394286, 0, 7), (0.5237636480411046, 0, 8), (0.2509770858192159, 0, 9), (1.9133640552995392, 1, 0), (1.0, 1, 1), (2.3800921658986174, 1, 2), (1.8721407624633433, 1, 3), (1.2617248539075712, 1, 4), (0.9155680224403927, 1, 5), (0.4375876577840112, 1, 6), (0.8186958853727684, 1, 7), (1.0021505376344086, 1, 8), (0.4802105347103154, 1, 9), (0.8039033457249071, 2, 0), (0.4201517967781908, 2, 1), (1.0, 2, 2), (0.7865833051706658, 2, 3), (0.5301159644089664, 2, 4), (0.38467754970098594, 2, 5), (0.18385324066591238, 2, 6), (0.3439765472542804, 2, 7), (0.4210553490293267, 2, 8), (0.2017613189903548, 2, 9), (1.0220193340494093, 3, 0), (0.5341478696741854, 3, 1), (1.2713211600429644, 3, 2), (1.0, 3, 3), (0.673947642829702, 3, 4), (0.48904870872834255, 3, 5), (0.23373651520104607, 3, 6), (0.43730466308288535, 3, 7), (0.5352965747702589, 3, 8), (0.25650343411061644, 3, 9), (1.5164669613773847, 4, 0), (0.7925658251900108, 4, 1), (1.886379711493718, 4, 2), (1.4837947882736158, 4, 3), (1.0, 4, 4), (0.7256479252230562, 4, 5), (0.3468170230845489, 4, 6), (0.6488703799701347, 4, 7), (0.794270267824828, 4, 8), (0.38059845870761744, 4, 9), (2.089810924369748, 5, 0), (1.092218137254902, 5, 1), (2.599579831932773, 5, 2), (2.0447860962566846, 5, 3), (1.3780787696631407, 5, 4), (1.0, 5, 5), (0.47794117647058826, 5, 6), (0.8941944949000978, 5, 7), (1.0945669934640523, 5, 8), (0.5244946557114811, 5, 9), (4.372527472527473, 6, 0), (2.28525641025641, 6, 1), (5.439120879120879, 6, 2), (4.278321678321679, 6, 3), (2.8833648103721097, 6, 4), (2.0923076923076924, 6, 5), (1.0, 6, 6), (1.8709300200986663, 6, 7), (2.29017094017094, 6, 8), (1.0974042027194066, 6, 9), (2.337087665254781, 7, 0), (1.2214547768793051, 7, 1), (2.907174945449878, 7, 2), (2.286735277301315, 7, 3), (1.5411398499127462, 7, 4), (1.1183249345677564, 7, 5), (0.5344935349037071, 7, 6), (1.0, 7, 7), (1.224081561345712, 7, 8), (0.58655545152968, 7, 9), (1.9092581238503987, 8, 0), (0.997854077253219, 8, 1), (2.37498467198038, 8, 2), (1.8681232930159972, 8, 3), (1.259017289843392, 8, 4), (0.9136032841948125, 8, 5), (0.4366486284754619, 8, 6), (0.816939027249651, 8, 7), (1.0, 8, 8), (0.47918004000063663, 8, 9), (3.984427489608837, 9, 0), (2.082419954829281, 9, 1), (4.956351420600125, 9, 2), (3.8985832820029716, 9, 3), (2.627441013281186, 9, 4), (1.906597119933457, 9, 5), (0.9112412705564317, 9, 6), (1.704868648636879, 9, 7), (2.086898277312785, 9, 8), (1.0, 9, 9)]
+EVAL final-fairness [(1.0, 0, 0), (0.9741242192652364, 0, 1), (1.190997417291846, 0, 2), (1.1861271676300578, 0, 3), (1.0703891605180198, 0, 4), (1.1957990718879752, 0, 5), (0.9897081629775836, 0, 6), (1.060795128623748, 0, 7), (0.9962784068413968, 0, 8), (0.9680544738741185, 0, 9), (1.026563122262047, 1, 0), (1.0, 1, 1), (1.2226340273011516, 1, 2), (1.2176344086021504, 1, 3), (1.0988220386568297, 1, 4), (1.227563228835378, 1, 5), (1.0159979019145031, 1, 6), (1.0889731593203644, 1, 7), (1.0227426719693622, 1, 8), (0.9937690232199583, 1, 9), (0.8396323833126808, 2, 0), (0.8179062398642748, 2, 1), (1.0, 2, 2), (0.995910780669145, 2, 3), (0.8987334019178045, 2, 4), (1.0040316246923924, 2, 5), (0.8309910236648835, 2, 6), (0.8906779420528392, 2, 7), (0.8365076131792025, 2, 8), (0.8128098850754293, 2, 9), (0.8430799220272904, 3, 0), (0.8212645708230307, 3, 1), (1.0041060097051138, 3, 2), (1.0, 3, 3), (0.902423609988389, 3, 4), (1.0081541882876204, 3, 5), (0.834403080872914, 3, 6), (0.894335074327039, 3, 7), (0.839942321557318, 3, 8), (0.8161472903519615, 3, 9), (0.9342396549644106, 4, 0), (0.9100654744988305, 4, 1), (1.1126770161942385, 4, 2), (1.108127035830619, 4, 3), (1.0, 4, 4), (1.1171629123273845, 4, 5), (0.9246246126956383, 4, 6), (0.9910368749533779, 4, 7), (0.9307627950559992, 4, 8), (0.9043948776589106, 4, 9), (0.8362608932461874, 5, 0), (0.8146219897354915, 5, 1), (0.9959845640383813, 5, 2), (0.9919117647058824, 5, 3), (0.8951245954958359, 5, 4), (1.0, 5, 5), (0.8276542324246772, 5, 6), (0.8871014818140996, 5, 7), (0.833148670427075, 5, 8), (0.8095460990329383, 5, 9), (1.0103988603988603, 6, 0), (0.9842540010325245, 6, 1), (1.2033824331696672, 6, 2), (1.1984615384615385, 6, 3), (1.0815199879707, 6, 4), (1.2082340195016252, 6, 5), (1.0, 6, 6), (1.0718261890780976, 6, 7), (1.0066385669125395, 6, 8), (0.9781211372064277, 6, 9), (0.9426890952048185, 7, 0), (0.918296278876246, 7, 1), (1.122740277698126, 7, 2), (1.1181491464510331, 7, 3), (1.0090441892457773, 7, 4), (1.127266745124837, 7, 5), (0.9329870926741612, 7, 6), (1.0, 7, 7), (0.9391807899174144, 7, 8), (0.9125743960853694, 7, 9), (1.0037354951518043, 8, 0), (0.9777630555635568, 8, 1), (1.195446382369951, 8, 2), (1.190557939914163, 8, 3), (1.0743875940376786, 8, 4), (1.2002659735235448, 8, 5), (0.9934052130220873, 8, 6), (1.0647577236837795, 8, 7), (1.0, 8, 8), (0.9716706366679576, 8, 9), (1.032999719528217, 9, 0), (1.0062700452866324, 9, 1), (1.2302999980213076, 9, 2), (1.2252690314866481, 9, 3), (1.105711702601158, 9, 4), (1.2352601058723807, 9, 5), (1.0223682547706305, 9, 6), (1.0958010703452306, 9, 7), (1.0291553148391817, 9, 8), (1.0, 9, 9)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 8209
+EVAL num-hcubes-after-all 43689
+EVAL data-points-changed-group [50, 77, 666, 26, 2658, 35, 47, 244, 39, 0]
+EVAL data-points-changed-total 3842
+EVAL time-total 511.13276624679565
+EVAL true-positive-after 10162
+EVAL false-positive-after 4206
+EVAL true-negative-after 30883
+EVAL false-negative-after 1192
+EVAL precision-after 0.7072661469933185
+EVAL recall-after 0.8950149726968469
+EVAL accuracy-after 0.8837715048554141

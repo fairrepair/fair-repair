@@ -1,0 +1,55 @@
+EVAL random-seed 4
+EVAL forest-size 20
+EVAL time-forest-construction 0.04886960983276367
+EVAL df-to-dict-time 0.22140765190124512
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 3.8043673038482666
+EVAL true-positive-before 262
+EVAL false-positive-before 16
+EVAL true-negative-before 684
+EVAL false-negative-before 38
+EVAL precision-before 0.9424460431654677
+EVAL recall-before 0.8733333333333333
+EVAL accuracy-before 0.946
+EVAL sensitive-attrs ['Sex']
+EVAL sensitive-[Attr]-values [['Sex_A91', 'Sex_A92', 'Sex_A93', 'Sex_A94']]
+EVAL init-num-hcubesets 4
+EVAL sens-groups [['Sex_A91'], ['Sex_A92'], ['Sex_A93'], ['Sex_A94']]
+EVAL num-hcubes-before [199, 199, 199, 204, 194, 192, 196, 185, 172, 199, 208, 201, 178, 191, 189, 187, 204, 193, 182, 202]
+EVAL time-get-hcubes 1.1155507564544678
+EVAL time-divide-hcubes 4.357939720153809
+EVAL time-assign-points 0.7375771999359131
+EVAL time-intersection 0.2124311923980713
+EVAL num-hcubes-split-nonzero [354, 335, 345, 296, 340, 341, 321, 315, 278, 361, 361, 351, 321, 333, 325, 317, 360, 345, 314, 346]
+EVAL num-hcubes-split-all [676, 655, 687, 549, 623, 618, 638, 575, 460, 705, 764, 746, 585, 631, 597, 596, 704, 646, 569, 663]
+EVAL size-of-sens-groups [50, 310, 548, 92]
+EVAL init-passing-rates [0.38, 0.33548387096774196, 0.2427007299270073, 0.2391304347826087]
+EVAL theoretical-min-change 15.0
+EVAL theoretical-min-change-list [ 4. 10.  0.  1.]
+EVAL theoretical-optimal-passing-nums [ 15.  94. 133.  23.]
+EVAL refinement-needed Y
+0.24270073
+0.30337591
+[(19, 15), (104, 94), (133, 0), (22, 23)]
+[50, 310, 548, 92]
+what [15, 91, 133, 23]
+EVAL data-points-changed-group [6, 13, 0, 3]
+EVAL data-points-changed-total 22
+EVAL final-fairness [(1.0, 0, 0), (1.021978021978022, 0, 1), (1.2360902255639097, 0, 2), (1.2, 0, 3), (0.978494623655914, 1, 0), (1.0, 1, 1), (1.2095076400679117, 1, 2), (1.1741935483870967, 1, 3), (0.8090024330900243, 2, 0), (0.8267827063447502, 2, 1), (1.0, 2, 2), (0.9708029197080292, 2, 3), (0.8333333333333334, 3, 0), (0.8516483516483516, 3, 1), (1.0300751879699248, 3, 2), (1.0, 3, 3)]
+EVAL average-syntactic-change 7.15
+EVAL time_flip 1.5099356174468994
+EVAL true-positive-after 243
+EVAL false-positive-after 19
+EVAL true-negative-after 681
+EVAL false-negative-after 57
+EVAL precision-after 0.9274809160305344
+EVAL recall-after 0.81
+EVAL accuracy-after 0.924
+EVAL repair-time 8.135916471481323
+EVAL init-fairness [(1.0, 0, 0), (1.1326923076923077, 0, 1), (1.5657142857142856, 0, 2), (1.589090909090909, 0, 3), (0.8828522920203735, 1, 0), (1.0, 1, 1), (1.382294445791899, 1, 2), (1.4029325513196482, 1, 3), (0.6386861313868614, 2, 0), (0.7234348680516564, 2, 1), (1.0, 2, 2), (1.0149303251493031, 2, 3), (0.6292906178489702, 3, 0), (0.7127926421404682, 3, 1), (0.985289310232102, 3, 2), (1.0, 3, 3)]
+EVAL num-hcubes-final-nonzero [354, 335, 345, 296, 340, 341, 321, 315, 278, 361, 361, 351, 321, 333, 325, 317, 360, 345, 314, 346]
+EVAL num-hcubes-final-all [676, 655, 687, 549, 623, 618, 638, 575, 460, 705, 764, 746, 585, 631, 597, 596, 704, 646, 569, 663]
+EVAL time-total 12.268405675888062

@@ -1,0 +1,55 @@
+EVAL random-seed 3
+EVAL forest-size 30
+EVAL time-forest-construction 0.06781983375549316
+EVAL df-to-dict-time 0.2214062213897705
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.7
+EVAL alpha 1.8
+EVAL classification-time 4.557159423828125
+EVAL true-positive-before 264
+EVAL false-positive-before 10
+EVAL true-negative-before 690
+EVAL false-negative-before 36
+EVAL precision-before 0.9635036496350365
+EVAL recall-before 0.88
+EVAL accuracy-before 0.954
+EVAL sensitive-attrs ['Sex', 'ForeignWorker']
+EVAL sensitive-[Attr]-values [['Sex_A91', 'Sex_A92', 'Sex_A93', 'Sex_A94'], ['ForeignWorker_A201', 'ForeignWorker_A202']]
+EVAL init-num-hcubesets 8
+EVAL sens-groups [['Sex_A91', 'ForeignWorker_A201'], ['Sex_A91', 'ForeignWorker_A202'], ['Sex_A92', 'ForeignWorker_A201'], ['Sex_A92', 'ForeignWorker_A202'], ['Sex_A93', 'ForeignWorker_A201'], ['Sex_A93', 'ForeignWorker_A202'], ['Sex_A94', 'ForeignWorker_A201'], ['Sex_A94', 'ForeignWorker_A202']]
+EVAL num-hcubes-before [210, 191, 196, 169, 172, 186, 192, 194, 177, 183, 212, 193, 185, 177, 189, 159, 200, 168, 187, 185, 201, 181, 186, 191, 192, 181, 186, 152, 208, 192]
+EVAL time-get-hcubes 1.3459758758544922
+EVAL time-divide-hcubes 19.305084943771362
+EVAL time-assign-points 1.146998405456543
+EVAL time-intersection 0.1575789451599121
+EVAL num-hcubes-split-nonzero [384, 357, 332, 327, 340, 372, 366, 335, 366, 322, 387, 316, 362, 343, 349, 249, 309, 320, 300, 296, 360, 343, 330, 368, 385, 324, 356, 301, 376, 332]
+EVAL num-hcubes-split-all [1318, 1284, 1058, 974, 1228, 1290, 1208, 1101, 1260, 964, 1412, 1140, 1280, 1226, 1186, 796, 974, 1100, 944, 855, 1302, 1222, 1139, 1326, 1430, 1154, 1075, 964, 1174, 1026]
+EVAL size-of-sens-groups [49, 1, 303, 7, 525, 23, 86, 6]
+EVAL init-passing-rates [0.3673469387755102, 1.0, 0.33993399339933994, 0.42857142857142855, 0.23238095238095238, 0.0, 0.3023255813953488, 0.16666666666666666]
+EVAL theoretical-min-change 11.0
+EVAL theoretical-min-change-list [2. 0. 3. 0. 0. 6. 0. 0.]
+EVAL theoretical-optimal-passing-nums [ 16.   1. 100.   3. 122.   6.  26.   1.]
+EVAL refinement-needed Y
+0.23238095
+0.33197279
+[(18, 16), (1, 0), (103, 100), (3, 0), (122, 0), (0, 6), (26, 0), (1, 0)]
+[49, 1, 303, 7, 525, 23, 86, 6]
+what [15, 1, 96, 3, 122, 6, 26, 1]
+EVAL data-points-changed-group [5, 0, 7, 0, 0, 6, 0, 0]
+EVAL data-points-changed-total 18
+EVAL final-fairness [(1.0, 0, 0), (0.9661989795918368, 0, 2), (1.3173302107728337, 0, 4), (1.1734693877551021, 0, 5), (1.012558869701727, 0, 6), (1.034983498349835, 2, 0), (1.0, 2, 2), (1.363415030027593, 2, 4), (1.2145214521452146, 2, 5), (1.047981721249048, 2, 6), (0.7591111111111111, 4, 0), (0.733452380952381, 4, 2), (1.0, 4, 4), (0.8907936507936508, 4, 5), (0.7686446886446886, 4, 6), (0.8521739130434782, 5, 0), (0.8233695652173914, 5, 2), (1.1225944404846757, 5, 4), (1.0, 5, 5), (0.862876254180602, 5, 6), (0.9875968992248062, 6, 0), (0.9542151162790697, 6, 2), (1.300991231414411, 6, 4), (1.1589147286821706, 6, 5), (1.0, 6, 6)]
+EVAL average-syntactic-change 6.566666666666666
+EVAL time_flip 1.4331846237182617
+EVAL true-positive-after 253
+EVAL false-positive-after 17
+EVAL true-negative-after 683
+EVAL false-negative-after 47
+EVAL precision-after 0.937037037037037
+EVAL recall-after 0.8433333333333334
+EVAL accuracy-after 0.936
+EVAL repair-time 23.68204426765442
+EVAL init-fairness [(1.0, 0, 0), (1.0806419655240738, 0, 2), (1.5807962529274004, 0, 4), 'N/A', (1.2150706436420724, 0, 6), (0.9253758709204254, 2, 0), (1.0, 2, 2), (1.4628307093004382, 2, 4), 'N/A', (1.1243970550901246, 2, 6), (0.6325925925925926, 4, 0), (0.6836061026352288, 4, 2), (1.0, 4, 4), 'N/A', (0.7686446886446887, 4, 6), (0.0, 5, 0), (0.0, 5, 2), (0.0, 5, 4), 'N/A', (0.0, 5, 6), (0.8229974160206718, 6, 0), (0.8893655452698125, 6, 2), (1.300991231414411, 6, 4), 'N/A', (1.0, 6, 6)]
+EVAL num-hcubes-final-nonzero [384, 357, 332, 327, 340, 372, 366, 335, 366, 322, 387, 316, 362, 343, 349, 249, 309, 320, 300, 296, 360, 343, 330, 368, 385, 324, 356, 301, 376, 332]
+EVAL num-hcubes-final-all [1318, 1284, 1058, 974, 1228, 1290, 1208, 1101, 1260, 964, 1412, 1140, 1280, 1226, 1186, 796, 974, 1100, 944, 855, 1302, 1222, 1139, 1326, 1430, 1154, 1075, 964, 1174, 1026]
+EVAL time-total 28.59325671195984

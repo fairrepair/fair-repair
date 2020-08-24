@@ -1,0 +1,55 @@
+EVAL random-seed 5
+EVAL time-tree-construction 0.013960123062133789
+EVAL df-to-dict-time 0.3400917053222656
+EVAL classification-time 2.361194372177124
+EVAL true-positive-before 276
+EVAL false-positive-before 35
+EVAL true-negative-before 665
+EVAL false-negative-before 24
+EVAL precision-before 0.887459807073955
+EVAL recall-before 0.92
+EVAL accuracy-before 0.941
+EVAL data-file german.data
+EVAL num-input-points 1000
+EVAL fairness-thresh 0.95
+EVAL alpha 1.2
+EVAL input-tree ././rq5-german-tree/eval.german.r.5.a.1.2.f.0.95.s.2.i.1.pkl.tree
+EVAL sensitive-attrs ['Sex']
+EVAL sensitive-[Attr]-values [['Sex_A91', 'Sex_A92', 'Sex_A93', 'Sex_A94']]
+EVAL num-hcubes-before 173
+EVAL time-divide-hcubes 0.1874980926513672
+EVAL time-assign-points 0.05684781074523926
+EVAL init-num-hcubesets 4
+EVAL sens-groups [['Sex_A91'], ['Sex_A92'], ['Sex_A93'], ['Sex_A94']]
+EVAL num-hcubes-split-nonzero 300
+EVAL num-hcubes-split-all 628
+EVAL size-of-sens-groups [50, 310, 548, 92]
+EVAL init-passing-rates [0.4, 0.3548387096774194, 0.29014598540145986, 0.2391304347826087]
+(95, 100)
+[ 15.  94. 159.  27.]
+[ 5. 16.  0.  5.]
+EVAL theoretical-min-change 26.0
+EVAL theoretical-min-change-list [ 5. 16.  0.  5.]
+passNums-before: [20, 110, 159, 22]
+proportions: [50, 310, 548, 92]
+passNums-after [15, 94, 159, 27]
+EVAL time-flip-smt 0.5116331577301025
+EVAL refinement-needed N
+EVAL post-refinement-steps-needed N
+EVAL time-smt-calls 0.5116331577301025
+EVAL time-repair-all 0.8686776161193848
+EVAL init-fairness [(1.0, 0, 0), (1.1272727272727272, 0, 1), (1.378616352201258, 0, 2), (1.6727272727272728, 0, 3), (0.8870967741935484, 1, 0), (1.0, 1, 1), (1.2229661188882126, 1, 2), (1.4838709677419355, 1, 3), (0.7253649635036497, 2, 0), (0.8176841406768414, 2, 1), (1.0, 2, 2), (1.2133377571333777, 2, 3), (0.5978260869565217, 3, 0), (0.6739130434782609, 3, 1), (0.824172819250752, 3, 2), (1.0, 3, 3)]
+EVAL final-fairness [(1.0, 0, 0), (0.9893617021276596, 0, 1), (1.0339622641509434, 0, 2), (1.0222222222222221, 0, 3), (1.010752688172043, 1, 0), (1.0, 1, 1), (1.045080137959018, 1, 2), (1.0332138590203106, 1, 3), (0.9671532846715328, 2, 0), (0.9568644199409846, 2, 1), (1.0, 2, 2), (0.9886455798864558, 2, 3), (0.9782608695652174, 3, 0), (0.9678538390379279, 3, 1), (1.0114848236259228, 3, 2), (1.0, 3, 3)]
+EVAL refinement-steps-total 0
+EVAL num-hcubes-after-nonzero 300
+EVAL num-hcubes-after-all 628
+EVAL data-points-changed-group [5, 16, 0, 5]
+EVAL data-points-changed-total 26
+EVAL time-total 3.667701005935669
+EVAL true-positive-after 260
+EVAL false-positive-after 35
+EVAL true-negative-after 665
+EVAL false-negative-after 40
+EVAL precision-after 0.8813559322033898
+EVAL recall-after 0.8666666666666667
+EVAL accuracy-after 0.925

@@ -1,0 +1,116 @@
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/6e505ca2db7c4bf787dc3305f9c896aa-pulp.mps branch printingOptions all solution /tmp/6e505ca2db7c4bf787dc3305f9c896aa-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 38 RHS
+At line 47 BOUNDS
+At line 52 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Continuous objective value is 1856.78 - 0.00 seconds
+Cgl0004I processed model has 6 rows, 4 columns (4 integer (0 of which binary)) and 12 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 1857 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective 1857, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1856.78 to 1856.78
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                1857.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.9.0 
+Build Date: Feb 12 2015 
+
+command line - /home/fair/.local/lib/python3.6/site-packages/pulp/apis/../solverdir/cbc/linux/64/cbc /tmp/867f16303d934c808543be879bab0788-pulp.mps branch printingOptions all solution /tmp/867f16303d934c808543be879bab0788-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 13 COLUMNS
+At line 30 RHS
+At line 39 BOUNDS
+At line 44 ENDATA
+Problem MODEL has 8 rows, 4 columns and 14 elements
+Coin0008I MODEL read with 0 errors
+Presolve 6 (-2) rows, 4 (0) columns and 12 (-2) elements
+0  Obj 0 Primal inf 0.40543264 (2)
+3  Obj 0.043390721
+Optimal - objective value 0.043390721
+After Postsolve, objective 0.043390721, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0.04339072148 - 3 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+EVAL random-seed 3
+EVAL forest-size 30
+EVAL time-forest-construction 1.620373249053955
+EVAL df-to-dict-time 14.068320035934448
+EVAL data-file adult.data.45000
+EVAL num-input-points 45000
+EVAL fairness-thresh 0.8
+EVAL alpha 1.2
+EVAL classification-time 285.849458694458
+EVAL true-positive-before 9618
+EVAL false-positive-before 483
+EVAL true-negative-before 31853
+EVAL false-negative-before 838
+EVAL precision-before 0.9521829521829522
+EVAL recall-before 0.9198546289211935
+EVAL accuracy-before 0.9691297438773603
+EVAL sensitive-attrs ['sex']
+EVAL sensitive-[Attr]-values [['sex_Female', 'sex_Male']]
+EVAL init-num-hcubesets 2
+EVAL sens-groups [['sex_Female'], ['sex_Male']]
+EVAL num-hcubes-before [6204, 6243, 6112, 6163, 5981, 6186, 5989, 6064, 5830, 5993, 5839, 5932, 6219, 6128, 5858, 5909, 6276, 6068, 5881, 6102, 5999, 6066, 5933, 6313, 6306, 6088, 5864, 6037, 6142, 6196]
+EVAL time-get-hcubes 140.6856768131256
+EVAL time-divide-hcubes 314.5144236087799
+EVAL time-assign-points 166.90282797813416
+EVAL time-intersection 206.18911004066467
+EVAL num-hcubes-split-nonzero [6204, 6421, 6646, 6456, 6349, 6306, 6483, 6270, 6060, 5993, 6001, 6201, 6219, 6353, 6343, 6329, 6737, 6633, 5881, 6499, 6673, 6463, 6481, 6791, 6334, 6581, 6001, 6396, 6628, 6732]
+EVAL num-hcubes-split-all [6204, 10983, 8804, 10735, 8612, 6396, 10887, 7026, 10368, 5993, 10367, 9154, 6219, 7294, 8493, 8481, 8803, 9378, 5881, 8693, 9317, 7028, 8556, 10501, 10670, 9545, 6652, 10270, 9488, 9407]
+EVAL size-of-sens-groups [13988, 28804]
+EVAL init-passing-rates [0.10644838432942522, 0.29898625190945705]
+EVAL theoretical-min-change 1857.0
+EVAL theoretical-min-change-list [1857.    0.]
+EVAL theoretical-optimal-passing-nums [3346. 8612.]
+EVAL refinement-needed Y
+0.239189
+0.29898625
+[(1489, 3346), (8612, 0)]
+[13988, 28804]
+what [3346, 8612]
+EVAL data-points-changed-group [2205, 0]
+EVAL data-points-changed-total 2205
+EVAL final-fairness [(1.0, 0, 0), (0.8000536190465691, 0, 1), (1.249916225854598, 1, 0), (1.0, 1, 1)]
+EVAL average-syntactic-change 882.7
+EVAL time_flip 129.66069769859314
+EVAL true-positive-after 9451
+EVAL false-positive-after 2507
+EVAL true-negative-after 29829
+EVAL false-negative-after 1005
+EVAL precision-after 0.7903495567820705
+EVAL recall-after 0.9038829380260138
+EVAL accuracy-after 0.9179285847822023
+EVAL repair-time 964.0779304504395
+EVAL init-fairness [(1.0, 0, 0), (0.35603103370004224, 0, 1), (2.8087439165275256, 1, 0), (1.0, 1, 1)]
+EVAL num-hcubes-final-nonzero [6204, 6421, 6646, 6456, 6349, 6306, 6483, 6270, 6060, 5993, 6001, 6201, 6219, 6353, 6343, 6329, 6737, 6633, 5881, 6499, 6673, 6463, 6481, 6791, 6334, 6581, 6001, 6396, 6628, 6732]
+EVAL num-hcubes-final-all [6204, 10983, 8804, 10735, 8612, 6396, 10887, 7026, 10368, 5993, 10367, 9154, 6219, 7294, 8493, 8481, 8803, 9378, 5881, 8693, 9317, 7028, 8556, 10501, 10670, 9545, 6652, 10270, 9488, 9407]
+EVAL time-total 1266.3185527324677
