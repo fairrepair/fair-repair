@@ -579,9 +579,10 @@ def retVsSolver(min_,max_,lst_,hsets, hids, hCubeSetIndices, sizeOfDataset, c, a
     
     # Initialisation
     M = len(hsets)
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    opt = Solver()
     size = 20
 
     # Record the return values and path probabilities
@@ -754,9 +755,10 @@ def retVsSolverOld(hsets, hids, hCubeSetIndices, sizeOfDataset, c, alpha, y_soln
     
     # Initialisation
     M = len(hsets)
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    opt = Solver()
     size = 20
     (a,b) = c
 
@@ -922,9 +924,10 @@ def retVsSolverFinal(hsets, hids, hCubeSetIndices, sizeOfDataset, c, alpha, minC
     
     # Initialisation
     M = len(hsets)
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    opt = Solver()
     size = 20
     (a,b) = c
 
@@ -1076,9 +1079,10 @@ def anotherRetVsSolver(min_,max_,intersectedHsets,lst_,forest_size, hCubeSetIndi
     # Initialisation
     start = time.time()
     M = len(intersectedHsets)
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    opt = Solver()
     size = 20
 
     # Record the return values and path probabilities
@@ -1257,11 +1261,14 @@ def retVsSolverIntersected(intersectedHsets,forest_size, hCubeSetIndices, c, alp
     # Initialisation
     start = time.time()
     M = len(intersectedHsets)
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
-    opt1 = Tactic('psmt').solver()
-    opt2 =Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    # opt1 = Tactic('psmt').solver()
+    # opt2 =Tactic('psmt').solver()
+    opt = Solver()
+    opt1 = Solver()
+    opt2 = Solver()
     (a,b) = c
     size = 20
     # size = max(int(len(actual_outcomes)/100),20)
@@ -1459,11 +1466,12 @@ def forestRetVsSolver(min_,max_,lst_,hsets,dataList,outcomes,intersectedHsets,pt
     # Initialisation
     flip_start = time.time()
     M = len(hCubeSetIndices)
-    # opt = SolverFor("QF_FD")
-    set_option("parallel.enable", True)
-    set_option("parallel.threads.max", 32)
-    opt = Tactic('psmt').solver()
-    opt1 = Tactic('psmt').solver()
+    # set_option("parallel.enable", True)
+    # set_option("parallel.threads.max", 32)
+    # opt = Tactic('psmt').solver()
+    # opt1 = Tactic('psmt').solver()
+    opt = Solver()
+    opt1 = Solver()
     (a,b) = c
     forest_size = len(hsets)
     (class1,class2) = classes
