@@ -15,10 +15,10 @@ Given a sensitive attribute (e.g., gender) the technique assumes whitebox access
 - `scripts/` folder contains the bash scripts for the experiments
 - `results/` folder contains the experimental results
 
-**Dependencies:**
+**Dependencies:** Some of the below packages have Python version dependency. The code was tested with Python 3.5.2 and 3.6.5. 
 
 - [scikit-learn](https://scikit-learn.org/stable/)
-- [NumPy](https://numpy.org/)
+- [NumPy](https://numpy.org/) We suggest the users install NumPy with ```pip install numpy==1.19.3```.
 - [pandas](https://pandas.pydata.org/)
 - [Z3](https://github.com/Z3Prover/z3)
 - [PuLP](https://pypi.org/project/PuLP/)
