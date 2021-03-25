@@ -27,3 +27,4 @@ Given a sensitive attribute (e.g., gender) the technique assumes whitebox access
 
 - `python german_patch.py`
 - `python adult_patch.py`
+- `python ufrgs_patch.py`
