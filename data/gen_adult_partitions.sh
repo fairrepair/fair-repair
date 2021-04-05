@@ -5,8 +5,7 @@
 # adult.data.noheader.
 #####################
 
-#declare -a FilePartitions=(5000 10000 15000 20000 25000 30000)
-declare -a FilePartitions=(35000 40000 45000)
+declare -a FilePartitions=(5000 10000 15000 20000 25000 30000 35000 40000 45000) 
 
 echo -n "Starting: " && date
 
